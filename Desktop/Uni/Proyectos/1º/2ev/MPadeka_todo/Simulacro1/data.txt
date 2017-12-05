@@ -1,0 +1,10 @@
+Client;Jhon;Doe;10000
+PremiumClient;Jane;Doe;5000;2500
+Client;Max;Power;4000
+PremiumClient;Naruto;Uzimaki;5000;2500
+Client;Ranma;Andahalf;14000
+PremiumClient;Vol;DeMort;3000;1500
+Client;Mr;Bison;24000
+PremiumClient;Jack;Bauer;8000;2000
+Client;Jhon;Shepard;43000
+Client;Max;Plonck;2000

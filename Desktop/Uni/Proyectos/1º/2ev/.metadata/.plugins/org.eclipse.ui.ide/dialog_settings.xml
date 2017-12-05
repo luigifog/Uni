@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="/Users/luismartinezmoreno/Desktop/Plane1"/>
+		<item value="/Users/luismartinezmoreno/Desktop/UNI/2ev/MP"/>
+		<item value="/Volumes/UO258273/1º/2ev/mp/Nueva carpeta/Plane1"/>
+		<item value="/Users/luismartinezmoreno/Desktop/UNI/2ev/MP/Sesion1"/>
+	</list>
+	<section name="ExternalProjectImportWizard">
+		<item value="false" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="/Users/luismartinezmoreno/Desktop/Plane1"/>
+			<item value="/Users/luismartinezmoreno/Desktop/UNI/2ev/mp/Segundo Conecta4"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+	<section name="SaveAsDialogSettings">
+		<item value="526" key="DIALOG_WIDTH"/>
+		<item value="1|.SF NS Text|11.0|0|COCOA|1|.SFNSText-Regular" key="DIALOG_FONT_NAME"/>
+		<item value="532" key="DIALOG_HEIGHT"/>
+		<item value="99" key="DIALOG_X_ORIGIN"/>
+		<item value="0" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

@@ -1,0 +1,33 @@
+Diagramas
+
+En cada clase;
+arriba se ponen los los atributos(con su tipo(String, int...)), una raya y debajo los métodos,
+comenzando con los set y get y luego el resto de metodos(antes se pone un - si es privado,un + si es publico y # si es protected)
+ 
+** Si la clase es una interfaz, encima del nombre se pone <<Interface>>**
+
+
+EL EQUALS DEL OBJECT
+@Override
+public boolean Equals(Object objeto)
+{
+	el mitico search
+}
+
+Meter el Aplicaction(el quye tiene el main y el run)
+
+FLECHAS
+
+Si hay un arrayList de alguna clase, al lado del 0..* o lo que sea, se pone el nombre del arrayList 
+
+
+
+
+
+
+
+
+
+
+
+**set y get en la super, protected**

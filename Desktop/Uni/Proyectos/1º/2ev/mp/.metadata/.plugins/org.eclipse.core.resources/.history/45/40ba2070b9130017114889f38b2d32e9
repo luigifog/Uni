@@ -1,0 +1,55 @@
+package Queue;
+
+import sesion08.collections.List;
+
+public class ListQueue implements Queue {
+
+	
+	private List list;
+	private final static int inicio=0;
+	
+	public ListQueue(List list) {
+		this.list=list;
+	}
+	
+	
+	@Override
+	public void enqueue(Object element) {
+			checkNotNull(element);
+			list.add(element);
+	}
+
+	@Override
+	public Object peek() {
+		if(list.isEmpty())
+			throw new IllegalStateException("La pila esta vacia");
+		return list.get(inicio);
+	}
+
+	@Override
+	public Object dequeue() {
+		return list.remove(inicio);
+	}
+
+	@Override
+	public int size() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public boolean isEmpty() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	
+	
+	
+	void checkNotNull(Object element)
+	{
+		if(element==null)
+			throw new IllegalArgumentException("objeto null");
+		
+	}
+}

@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ testConstructorWithPalancaPosicionIntermedia()
+comment0.text=\r\n\ Pruebas\ constructor\ con\ par\u00E1metro\ la\ palanca\r\n
+comment1.params=
+comment1.target=void\ testConstructorWithPalancaPosicionMinima()
+comment10.params=
+comment10.target=void\ testMoveEngineLeverEstandoIntermediaMueveIncorrectaArriba()
+comment11.params=
+comment11.target=void\ testMoveEngineLeverEstandoIntermediaMueveIncorrectaAbajo()
+comment2.params=
+comment2.target=void\ testConstructorWithPalancaPosicionMaxima()
+comment3.params=
+comment3.target=void\ testConstructorWithPalancaDebajoLimiteInferior()
+comment4.params=
+comment4.target=void\ testConstructorWithPalancaEncimaLimiteSuperior()
+comment5.params=
+comment5.target=void\ testMoveEngineLeverEstandoMinimoMueveIntermedia()
+comment6.params=
+comment6.target=void\ testMoveEngineLeverEstandoMinimoMueveLimite()
+comment7.params=
+comment7.target=void\ testMoveEngineLeverEstandoIntermediaMueveSuperior()
+comment8.params=
+comment8.target=void\ testMoveEngineLeverEstandoIntermeidaMueveInferior()
+comment9.params=
+comment9.target=void\ testMoveEngineLeverEstandoLimiteSuperiorMueveLimiteInferior()
+numComments=12

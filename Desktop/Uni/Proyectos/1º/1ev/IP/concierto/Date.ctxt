@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=day\ month\ year
+comment0.target=Date(int,\ int,\ int)
+comment1.params=newDay\ newMonth\ newYear
+comment1.target=void\ setDate(int,\ int,\ int)
+comment2.params=newDay
+comment2.target=void\ setDay(int)
+comment3.params=
+comment3.target=int\ getDay()
+comment4.params=newMonth
+comment4.target=void\ setMonth(int)
+comment5.params=
+comment5.target=int\ getMonth()
+comment6.params=newYear
+comment6.target=void\ setYear(int)
+comment7.params=
+comment7.target=int\ getYear()
+numComments=8

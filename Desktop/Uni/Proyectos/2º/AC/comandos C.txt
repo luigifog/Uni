@@ -1,0 +1,20 @@
+Valores de variables en C
+
+%c: carácter (tipo char).
+
+%d: entero decimal con signo (tipo int o short).
+
+%f: real (tipo float o double).
+
+%s: cadena de caracteres (tipo char *).
+
+%x: entero en formato hexadecimal.
+
+%p: puntero.
+
+##############EJEMPLO DE PRINTF()########################
+char a;
+
+Printf("%s",a);
+
+Printf("%p",&a);//es el puntero de a

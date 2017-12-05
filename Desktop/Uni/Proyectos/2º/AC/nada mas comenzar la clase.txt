@@ -1,0 +1,5 @@
+git clone https://UO258273@bitbucket.org/UO258273/2ac-uo258273.git
+git pull
+
+
+A partr del 4.4 no lo tengo hecho y no estoy muy seguro de como funciona el makefile

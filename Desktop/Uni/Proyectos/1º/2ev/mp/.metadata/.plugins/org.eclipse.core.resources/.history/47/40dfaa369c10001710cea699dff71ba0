@@ -1,0 +1,29 @@
+package sesion08.collections;
+
+import java.util.Iterator;
+
+public class IteradorArrayList implements Iterator<Object> {
+
+
+	ArrayList lista=null;
+	int pos =0;
+	public IteradorArrayList(ArrayList lista){
+		this.lista=lista;
+		
+	}
+		public boolean hasNext(){
+			if(pos<lista.size())
+			{
+				pos++;
+				return true;
+			}
+			return false;
+		}
+		
+		@Override
+		public Object next(){
+			return lista.get(pos);
+		}
+		
+
+}

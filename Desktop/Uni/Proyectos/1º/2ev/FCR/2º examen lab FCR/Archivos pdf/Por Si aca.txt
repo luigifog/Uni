@@ -1,0 +1,249 @@
+-------------------------------------------*4-4prog1.ens*-------------------------------------------
+
+ORIGEN 0ABCDh
+INICIO primera
+
+.DATOS
+  operando1 VALOR 3
+  operando2 VALOR 0Ch
+  resultado VALOR 0
+
+.CODIGO
+
+primera: 
+  ; Inicializar los punteros
+  movl r0, 03
+  movh r0, 00
+  movl r1, 0Ch
+  movh r1, 00h
+  movl r2, 00
+  movh r2, 00
+
+  ; Traer los operandos de memoria a registros
+  mov r3, [r0]
+  mov r4, [r1]
+
+  ; Hacer la suma
+  add r5, r3, r4
+
+  ; Llevar el resultado a memoria
+  mov [r2], r5
+
+FIN
+
+
+
+-------------------------------------------*5-1ast1.ens*-------------------------------------------
+
+										
+ORIGEN 0500h
+INICIO primera
+
+.DATOS
+cad VALOR "Hola, mundo",0
+
+.CODIGO
+
+primera: 
+  ; Inicializar los punteros
+  movl r0, 00
+  movh r0, 0F0h
+
+  movl r1, BYTEBAJO DIRECCION cad
+  movh r1, BYTEALTO DIRECCION cad
+  
+  xor r3,r3,r3
+  
+  bucle:
+	mov r2,[r1]
+	cmp r2,r3
+	brz final
+
+	movh r2, 02h;color verde sobre fondo negro.
+	mov [r0],r2 ;escribir el caracter en la pantalla
+	
+	inc r0
+	inc r1
+	jmp bucle
+final:
+ 
+FIN										
+										
+	
+	
+-------------------------------------------*5-1ast2.ens*-------------------------------------------
+										
+										
+ORIGEN 0500h
+INICIO primera
+
+.DATOS
+
+.CODIGO
+
+primera: 
+  ; Inicializar los punteros
+  movl r0, 00
+  movh r0, 0F0h
+  movl r1, '*'
+  movh r1, 14h
+
+  ; Traer los operandos de memoria a registros
+  mov [r0], r1
+ 
+FIN
+
+
+-------------------------------------------*5-2letra.ens*-------------------------------------------
+
+										
+ORIGEN 300h
+	 .CODIGO
+	 movl r0, 01h ; Cargar la dirección del registro de estado
+	 movh r0, 0F7h ; y control del teclado en R0
+
+	 movl r1, 00h ; Cargar la máscara en R1
+	 movh r1, 01h
+
+	 movl r3, 00h ; Cargar en R3 la dirección de la primera celda
+	 movh r3, 0F0h ; de pantalla
+
+	 movl r4, '*' ; Cargar lo necesario para imprimir un asterisco
+
+
+bucle:
+	 mov r2, [r0] ; Leer el registro de estado y control a R2
+	 and r2, r2, r1 ; Realizar operación con la máscara
+	 brz bucle ; Si no se pulsó tecla, volver al principio del bucle
+
+	 ;Leer el registro de datos para borrar el bit 8 
+	 movl r5, 00h
+	 movh r5, 0F7h; pongo la direccion en la que esta el registro de datos
+	 mov r4, [r5]
+	 movh r4, 7h ; en color blanco sobre fondo negro
+
+	
+	 ; Si estamos aquí, se pulsó tecla. Imprimir un asterisco
+	 mov [r3], r4 ; Escribir asterisco
+	 inc r3 ; Avanzar a la sgte. posición de pantalla
+	 jmp bucle ; Volver al bucle a ver si se pulsan más teclas
+
+	 FIN
+
+	 
+
+-------------------------------------------*5-2pulsa.ens*-------------------------------------------
+										
+										
+ORIGEN 300h
+ .CODIGO
+ movl r0, 01h ; Cargar la dirección del registro de estado
+ movh r0, 0F7h ; y control del teclado en R0
+ 
+ movl r1, 00h ; Cargar la máscara en R1
+ movh r1, 01h
+
+ movl r3, 00h ; Cargar en R3 la dirección de la primera celda
+ movh r3, 0F0h ; de pantalla
+
+ movl r4, '*' ; Cargar lo necesario para imprimir un asterisco
+ movh r4, 7h ; en color blanco sobre fondo negro
+
+ bucle:
+ mov r2, [r0] ; Leer el registro de estado y control a R2
+ and r2, r2, r1 ; Realizar operación con la máscara
+ brz bucle ; Si no se pulsó tecla, volver al principio del bucle
+
+ ; Si estamos aquí, se pulsó tecla. Imprimir un asterisco
+ mov [r3], r4 ; Escribir asterisco
+ inc r3 ; Avanzar a la sgte. posición de pantalla
+ jmp bucle ; Volver al bucle a ver si se pulsan más teclas
+
+ FIN
+
+ 
+ 
+ 
+-------------------------------------------*5-3int1.ens*-------------------------------------------
+										
+										
+ ORIGEN 300h
+ .PILA 20h
+ .CODIGO
+ STI
+ MOVL R1, 05h
+ MOVH R1, 80h
+ MOV R0, R1
+ FIN
+
+ 
+ 
+
+ 
+ 
+-------------------------------------------*5-4int1.ens*-------------------------------------------
+										
+										
+ ORIGEN 300h
+ .PILA 20h
+ .CODIGO
+ MOVL R0, 3 ; Vector a modificar
+ MOVH R0, 0
+ MOVL R1, BYTEBAJO DIRECCION rutina_minima
+ MOVH R1,BYTEALTO direccion rutina_minima
+ MOV [R0],R1
+ STI ; Permitir interrupciones
+
+ ; Una vez instalada la rutina, el programa
+ ; principal se encierra en un bucle infinito
+ PorSiempre:
+ JMP PorSiempre
+
+ ; Y esta sería la rutina minima:
+ PROCEDIMIENTO rutina_minima
+ IRET
+ FINP
+
+ FIN
+ 
+ 
+ 
+-------------------------------------------*5-4int2.ens*-------------------------------------------
+											
+											
+ ORIGEN 300h
+ .PILA 20h
+ .CODIGO
+ MOVL R0, 3 ; Vector a modificar
+ MOVH R0, 0
+ MOVL R1, BYTEBAJO DIRECCION rutina_util
+ MOVH R1,BYTEALTO direccion rutina_util
+ MOV [R0],R1
+ STI ; Permitir interrupciones
+
+ ; Una vez instalada la rutina, el programa
+ ; principal se encierra en un bucle infinito
+ PorSiempre:
+ JMP PorSiempre
+
+ ; Y esta sería la rutina minima:
+ PROCEDIMIENTO rutina_util
+	;Salvar registros modificados
+	PUSH R0
+	PUSH R1
+	;leer en R1 el estado de los interruptores
+	
+	movl R0,00h
+	movh R0,0E0h
+	mov R1,[R0]
+	;escribir desde R1 a luces
+	mov [R0], R1
+ 
+	;Recuperar registros modificados
+	POP R1
+	POP R0 
+ 
+ IRET
+ FINP
+
+ FIN

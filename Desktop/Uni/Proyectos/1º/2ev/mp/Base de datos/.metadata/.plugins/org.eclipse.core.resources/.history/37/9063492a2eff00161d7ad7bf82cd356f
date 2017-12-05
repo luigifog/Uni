@@ -1,0 +1,8 @@
+package greenHouse;
+
+import java.io.PrintStream;
+
+public interface ElectonicDevices {
+	void check(PrintStream out);
+
+}

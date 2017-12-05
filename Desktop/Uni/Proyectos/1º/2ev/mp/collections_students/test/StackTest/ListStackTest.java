@@ -1,0 +1,62 @@
+package StackTest;
+
+import static org.junit.Assert.*;
+
+
+import org.junit.Test;
+
+import Stack.ListStack;
+
+public class ListStackTest {
+	private ListStack stack;
+
+
+	public ListStackTest(ListStack stack)
+	{
+		this.stack=stack;
+	}
+	
+	
+	
+	
+	
+
+	@Test(expected=IllegalArgumentException.class)
+	public void testPush() {
+		//caso 1 no hay elementos
+		stack.push(20);
+		assertEquals(1,stack.size());
+		assertEquals(20,stack.peek());
+		
+		//caso 2 insertar con algun elemento
+		stack.push(30);
+		assertEquals(30,stack.peek());
+		assertEquals(2,stack.size());
+		stack.push(40);
+		assertEquals(40,stack.peek());
+		assertEquals(3,stack.size());
+		//parametro nulo
+
+			stack.push(null);
+	}
+		
+		@Test(expected=IllegalStateException.class)
+		public void testPeek()
+		{
+			//pila vacia
+				stack.peek();
+			//pila con elementos
+			
+			stack.push("Hola");
+			assertEquals("Hola",stack.peek());
+			stack.push("Adios");
+			assertEquals("Adios",stack.peek());
+			
+		}
+		
+		
+		
+		//hacer hacer superclase pa no repetir codigo en los test(una super llamada ListStackTest())
+	}
+
+

@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ testNumberOfFreeSeats()
+comment0.text=\n\ prueba\ del\ m\u00E9todo\ que\ devuelve\ el\ n\u00FAmero\ de\ asientos\ libres\ que\ hay\ en\ una\ determinada\ fila\ del\ avi\u00F3n\n
+comment1.params=
+comment1.target=void\ testRelease()
+comment2.params=
+comment2.target=void\ testOldestPasenger()
+comment2.text=\n\ test\ oldestPassenger\n
+comment3.params=
+comment3.target=void\ testChildrenPassenger()
+comment4.params=
+comment4.target=void\ testAdultsInWindow()
+numComments=5

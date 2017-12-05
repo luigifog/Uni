@@ -1,0 +1,85 @@
+package sesion08.collections;
+
+import static org.junit.Assert.*;
+
+import org.junit.Before;
+import org.junit.Test;
+
+import sesion08.collections.List;
+
+public class LinkedListTest 
+{
+	private List list;
+	
+	@Before
+	public void setUp()
+	{
+		list = new LinkedList();
+	}
+	
+	@Test
+	public void testListIsEmptyWhenCreated() 
+	{
+		assertEquals(0, list.size());
+		assertTrue(list.isEmpty());
+	}
+	
+	@Test
+	public void testToStringEmpty() 
+	{
+		assertEquals("", list.toString());
+	}
+
+	@Test
+	public void testToStringInteger() 
+	{
+		list.add(1);
+		list.add(2);
+		list.add(3);
+		list.add(4);		
+		assertEquals("1,2,3,4,", list.toString());
+	}
+
+	@Test
+	public void testToStringString() 
+	{
+		list.add("testing");
+		list.add("with");
+		list.add("the");
+		list.add("JUnit");		
+		list.add("framework");		
+		assertEquals("testing,with,the,JUnit,framework,", list.toString());
+	}
+	@Test 
+	public void testAddObject(){
+		//caso 1:añado un objeto
+		list.add(new Object());
+		assertEquals(1, list.size());
+		//caso 2:añado un objeto null
+		try{
+		list.add(null);
+		}
+		catch(Exception e){
+			assertEquals("Parametro incorrecto", e.getMessage());
+		}
+	}
+	@Test
+	public void testRemoveObject(){
+		//caso 1:borro un objeto
+		list.remove(new Object());
+		assertEquals(0, list.size());
+		//caso 2:borro un null
+		try{
+			list.remove(null);
+			}
+			catch(Exception e){
+				assertEquals("Parametros incorrectos", e.getMessage());
+			}
+	}
+	@Test
+	public void testContains(){
+		//caso1:busco un objeto
+		list.add(new Object());
+		list.contains(new Object());
+	}
+}

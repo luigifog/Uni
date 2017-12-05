@@ -1,0 +1,28 @@
+package sesion08.collections;
+
+import java.util.Iterator;
+
+import sesion08.collections.LinkedList.miIterador;
+
+public class IteradorLinkedList implements Iterator {
+
+	Node head;
+	Node actual;
+		public boolean hasNext(){
+			if(actual.next!=null){
+				actual=actual.next;
+				return true;
+			}
+			return false;
+		}
+		@Override
+		public Object next(){
+			return actual.value;
+		}
+		@Override
+		public Iterator iterator(){
+			return new miIterador(head);
+		}
+	}
+}
+}

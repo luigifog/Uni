@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Tram()
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ Tram\n
+comment1.params=rows
+comment1.target=Tram(int)
+comment1.text=\n\ Tram\ Constructor\n\n\ @param\ rows\ n\u00FAmero\ de\ filas\ entre\ 5\ y\ 20\n
+comment2.params=row\ column\ person
+comment2.target=boolean\ seatPerson(int,\ int,\ Person)
+comment2.text=\n\ M\u00E9todo\ que\ devuelve\ un\ valor\ booleano\ true\ si\ ha\ podido\ sentar\ a\ una\ persona,\ false\ en\ caso\ contrario\n\ (el\ asiento\ estaba\ ocupado\ o\ par\u00E1metros\ incorrectos).\n\n\ @param\ row\ n\u00FAmero\ de\ fila\n\ @param\ column\ n\u00FAmero\ de\ columna\ \n\ @param\ person\ el\ objeto\ persona\n\ @return\ true\ si\ ha\ podido\ sentar\ a\ una\ persona,\ false\ en\ caso\ contrario\n
+comment3.params=row
+comment3.target=java.util.ArrayList\ passengersInRow(int)
+comment3.text=\n\ M\u00E9todo\ que\ devuelve\ un\ ArrayList\ con\ los\ pasajeros\ (Person)\ sentados\ en\ dicha\ fila\n\n\ @param\ row\ n\u00FAmero\ de\ fila\n\ @return\ una\ colecci\u00F3n\ ArrayList\ con\ los\ pasajeros\ de\ la\ fila\ o\ null\ si\ el\ par\u00E1metro\ es\ incorrecto\n
+comment4.params=
+comment4.target=int\ adultsInWindow()
+comment4.text=\n\ M\u00E9todo\ que\ devuelve\ un\ entero\ con\ el\ n\u00FAmero\ de\ adultos\ sentados\ en\ alguna\ de\ las\ ventanillas\ laterales\ del\ tranv\u00EDa\n(primera\ y\ \u00FAltima\ columna).\n\n\ @return\ n\u00FAmero\ de\ adultos\ sentados\ en\ alguna\ de\ las\ ventanillas\n
+comment5.params=person\ column\ row
+comment5.target=boolean\ bookSeat(Person,\ int,\ int)
+numComments=6

@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Torre()
+comment1.params=i\ j
+comment1.target=void\ introducir(int,\ int)
+comment2.params=i\ j
+comment2.target=void\ borrar(int,\ int)
+comment3.params=
+comment3.target=void\ ver()
+comment4.params=
+comment4.target=void\ comprobar()
+numComments=5

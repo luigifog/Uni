@@ -1,0 +1,211 @@
+/**
+ * 
+ */
+package sesion08.collections;
+
+import java.util.Iterator;
+
+/**
+ * @author UO257275
+ *
+ */
+public class ArrayList <Object>implements List,Iterable<Object> {
+
+	private final static int INITIAL_CAPACITY = 20;
+
+	private Object[] elements;
+	private int numberOfElements;
+
+	public ArrayList(int capacity) {
+		elements = new Object[capacity];
+		numberOfElements = 0;
+	}
+
+	public ArrayList() {
+		elements = new Object[INITIAL_CAPACITY];
+	}
+
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see sesion08.collections.Collection#contains(java.lang.Object)
+	 */
+	@Override
+	public boolean contains(Object o) {
+		if (o == null) {
+			throw new RuntimeException("parametros incorrectos");
+		}
+		int pos = indexOf(o);
+		{
+			if (pos != -1) {
+				return true;
+			}
+		}
+		return false;
+	}
+
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see sesion08.collections.Collection#size()
+	 */
+	@Override
+	public int size() {
+		return numberOfElements;
+	}
+
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see sesion08.collections.Collection#isEmpty()
+	 */
+	@Override
+	public boolean isEmpty() {
+		return size() == 0;
+	}
+
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see sesion08.collections.Collection#add(java.lang.Object)
+	 */
+	@Override
+	public void add(Object element) {
+		if (element == null) {
+			throw new RuntimeException("parametros incorrectos");
+		}
+		if (size() >= elements.length){
+			moreMemory(size() + 1);
+		}
+		elements[size()] = element;
+		numberOfElements++;
+	}
+
+	private void moreMemory(int numElem) {
+		if (numElem > elements.length) {
+			Object[] aux = new Object[Math.max(numElem, 2 * elements.length)];
+			System.arraycopy(elements, 0, aux, 0, elements.length);
+			elements = aux;
+		}
+	}
+
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see sesion08.collections.Collection#remove(java.lang.Object)
+	 */
+	@Override
+	public Object remove(Object element) {
+		if (element == null) {
+			throw new RuntimeException("parametros incorrectos");
+		}
+		for (int j = 0; j < size() - 1; j++)
+			elements[j] = null;
+		numberOfElements--;
+		return true;
+	}
+
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see sesion08.collections.Collection#clear()
+	 */
+	@Override
+	public void clear() {
+		elements = null;
+
+	}
+
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see sesion08.collections.List#add(int, java.lang.Object)
+	 */
+	@Override
+	public void add(int index, Object element) {
+		if (index < 0 || index>numberOfElements) {
+			throw new RuntimeException("parametros incorrectos");
+		}
+		if (element == null) {
+			throw new RuntimeException("parametros incorrectos");
+		}
+		
+		if (size() >= elements.length){
+			moreMemory(size() + 1);
+		}
+		
+		elements[index] = element;
+		numberOfElements++;
+	}
+
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see sesion08.collections.List#remove(int)
+	 */
+	@Override
+	public Object remove(int index) {
+		if(index<0 || index>numberOfElements){
+			throw new RuntimeException("parametros incorrectos");
+		}
+		Object value = elements[index];
+		for (int j = index; j < size() - 1; j++)
+			elements[j] = elements[j + 1];
+		numberOfElements--;
+		return value;
+
+	}
+
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see sesion08.collections.List#indexOf(java.lang.Object)
+	 */
+	@Override
+	public int indexOf(Object o) {
+		if(o==null){
+			throw new RuntimeException("parametros incorrectos");
+		}
+		for (int i = 0; i < size(); i++) {
+			if (elements[i].equals(o)) {
+				return i;
+			}
+		}
+		return -1;
+	}
+
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see sesion08.collections.List#get(int)
+	 */
+	@Override
+	public Object get(int index) {
+		if(index<0 || index >numberOfElements){ 
+			throw new RuntimeException("parametros incorrectos");
+		}
+		return elements[index];
+	}
+
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see sesion08.collections.List#set(int, java.lang.Object)
+	 */
+	@Override
+	public Object set(int index, Object element) {
+		if(index<0 || index >numberOfElements){ 
+			throw new RuntimeException("parametros incorrectos");
+		}
+		if(element==null){
+			throw new RuntimeException("parametros incorrectos");
+		}
+		return elements[index] = element;
+	}
+
+	@Override
+	public Iterator<Object> iterator() {
+		return new IteradorArrayList(this);
+	}
+
+}

@@ -1,0 +1,72 @@
+package sesion08.collections;
+
+
+/**
+ * <p>Title: Collection</p>
+ * <p>Description: Interfaz que representa una colección de elementos.</p>
+ * <p>Copyright: Copyright (c) 2017</p>
+ * <p>Escuela de Ingeniería Informática </p>
+ * <p>Metodología de la Programación</p>
+ * 
+ * @author Profesores de Metodología de la Programación
+ * @version 1.0
+ */
+
+public interface Collection {
+	
+	
+	/**
+     * Devuelve {@code true} si la colección contiene el elemento especificado
+     * Más formalmente, devuelve {@code true} si y solo si esta colección 
+     * contiene al menos un elemento tal que 
+     * {@code (o == null ? e == null : o.equals(e))}. 
+     * 
+     * @param o elemento a comprobar si está en la colección
+     * @return {@code true} si esta colección contienen el elemento especificado
+     */
+    boolean contains(Object o);
+    
+    /**
+	 * Devuelve el número de elementos que hay en la colección
+	 * @return El número de elementos de la colección
+	 */
+	int size();
+	
+		
+	/**
+	 *  Indica si la colección contiene o no elementos
+	 * @return Devuelve {@code true} si la colección no contiene elementos {@code false} en caso contrario
+	 */
+	boolean isEmpty();
+
+	/**
+	 * Añade al final de la lista el elemento especificado 
+	 * @param element el elemento que se añade a la colección
+	 * @throws IllegalArgumentException si el elemento es null y no se puede añadir a la colección
+	 */
+	void add(Object element);
+
+	/**
+	 * Elimina el elemento de la colección que coincida con el parámetro 
+	 * Devuelve el elemento que fue eliminado de la colección 
+	 * @param element el elemento que se quiere borrar
+	 * @return El elemento de la collección. Null si no se encuentra en la colección
+	 */
+	Object remove(Object element);
+	
+	
+	/**
+     * Elimina todos los elementos de la colección.
+     * La colección estará vacía después de esta operación.
+     *
+     */
+    void clear();
+	
+	/**
+	 * Devuelve la representación textual de la colección. Esto es:
+	 * "[el1, el2, ..., eln]" donde eli es la representación textual de su i-th elemento  
+	 * @return un string con la representación textual de la colección
+	 */
+	String toString();
+	
+}

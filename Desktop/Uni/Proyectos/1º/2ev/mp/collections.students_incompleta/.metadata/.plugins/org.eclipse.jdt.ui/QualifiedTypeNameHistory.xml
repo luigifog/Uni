@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.junit.Test"/>
+<fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="java.util.Iterator"/>
+<fullyQualifiedTypeName name="sesion08.collections.IteradorLinkedList"/>
+<fullyQualifiedTypeName name="sesion08.collections.IteradorArrayList"/>
+<fullyQualifiedTypeName name="sesion08.collections.ArrayList"/>
+</qualifiedTypeNameHistroy>

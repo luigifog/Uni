@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=newActivate
+comment0.target=void\ setActivate(boolean)
+comment0.text=\n\ Method\ setActivate\n\ Setter\ para\ activar\ el\ interruptor.\n\n\ @param\ newActivate\ A\ parameter\n
+comment1.params=
+comment1.target=boolean\ getActivate()
+comment1.text=\n\ Method\ getActivate\n\ Getter\ para\ activar\ el\ interruptor\n\n\ @return\ The\ return\ value\n
+comment2.params=
+comment2.target=void\ turnOn()
+comment2.text=\n\ Method\ turnOn\n\ Este\ m\u00E9todo\ sirve\ para\ determinar\ cuando\ est\u00E1\ activado\ el\ nterruptor\n\n
+comment3.params=
+comment3.target=void\ turnOff()
+comment3.text=\n\ Method\ turnOff\n\ Este\ m\u00E9todo\ sirve\ para\ determinar\ cuando\ no\ est\u00E1\ activado\ el\ nterruptor\n\n
+comment4.params=
+comment4.target=void\ press()
+comment4.text=\n\ Method\ press\n\ Este\ metodo\ devuelve\ un\ apagado\ si\ el\ interruptor\ esta\ encendido,\ y\ en\ caso\ contrario\n\ enciende\ el\ interruptor,\ conmuta\ entre\ valores.\n\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\n\ Method\ toString\n\ Este\ metodo\ devuelve\ un\ string\ en\ funcion\ de\ si\ esta\ encendido(ON)\ o\ apagado(OFF)\n\n\ @return\ The\ return\ value\n
+numComments=6

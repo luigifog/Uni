@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Engine()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Engine\r\n
+comment1.params=revolutions
+comment1.target=Engine(double)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Engine\r\n
+comment2.params=newRevolutions
+comment2.target=void\ setRevolutions(double)
+comment2.text=\r\n\ modifica\ las\ revoluciones\r\n\ \r\n\ @param\ \ revolutions,\ nuevo\ valor,\ de\ tipo\ doble\r\n\ \r\n
+comment3.params=
+comment3.target=double\ getRevolutions()
+comment3.text=\r\n\ Devuelve\ las\ revoluciones\r\n\ @return\ revolutions\ de\ tipo\ doble\r\n
+comment4.params=newRevolutions
+comment4.target=boolean\ changeRevolutions(double)
+comment4.text=\r\n\ Cambia\ las\ revoluciones\ a\ las\ recibidas\ y\ devuelve\ true\ si\ las\ ha\ podido\ cambiar\r\n\ @param\ newRevolutions\ nuevo\ valor\ para\ las\ revoluciones,\ de\ tipo\ doble\r\n\ @return\ true\ si\ las\ ha\ podido\ cambiar,\ false\ si\ no,\ (por\ estar\ fuera\ de\ l\u00EDmites)\r\n
+numComments=5

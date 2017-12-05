@@ -1,0 +1,6 @@
+Adeka ed
+En algorithmsBenchmark:
+	No se si esta bien el test3 ni el testFinal
+	Revisar como si los metodos de algorthms estan bien planteados
+	y ver como se pasa el path de una clase, para ver si me hace bien las graficas
+	cual es el exponente máximo para que el resultado no produzca overflow.

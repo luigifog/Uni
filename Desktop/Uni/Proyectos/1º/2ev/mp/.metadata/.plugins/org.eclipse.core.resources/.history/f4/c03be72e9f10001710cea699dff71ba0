@@ -1,0 +1,12 @@
+package Stack;
+
+
+import java.util.LinkedList;
+
+public class LinckedListStack extends ListStack{
+	
+	public LinkedListStack()
+	{
+		super(new LinkedList());
+	}
+}

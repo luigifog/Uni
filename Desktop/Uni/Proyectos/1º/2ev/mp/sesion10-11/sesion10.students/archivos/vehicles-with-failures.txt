@@ -1,0 +1,11 @@
+car	307	110	5	5	Ford-Focus
+
+mmotorbike	48	50	2	Honda
+truck	19a00	310	4	Pegaso	2	9500
+car	307	140	3	Mercedes
+
+motorbike	50	7a5	1	Yamaha
+car	80	206	1	Renault-Twingo
+
+motorbike	48	80	4	Suzuki
+truck	1300	150	7	Iveco	1	3500

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;Stack.LinckedListStack.java&apos; to &apos;LinkedListStack.java&apos;&#x0A;- Original project: &apos;collections_students&apos;&#x0A;- Original element: &apos;Stack.LinckedListStack.java&apos;&#x0A;- Renamed element: &apos;Stack.LinkedListStack.java&apos;" description="Rename compilation unit &apos;LinckedListStack.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;Stack{LinckedListStack.java" name="LinkedListStack.java" references="false" stamp="1490366179164" version="1.0"/>
+</session>

@@ -1,0 +1,51 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf0 \expnd0\expndtw0\kerning0
+#generacion de numeros aleatorios\
+import random\
+\
+def generarListaAleatoria(n,k):\
+\'a0\'a0\'a0"""devuelve una lista de n enteros aleatorios entre los valores o y k"""\
+\'a0\'a0\'a0l=[]\
+\'a0\'a0\'a0for i in range(n):\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0l=l+[int(k*random())]\
+\'a0\'a0\'a0return l\
+\'a0\'a0\'a0#ficheros\
+\'a0\'a0\'a0def crearFichero(nombre):\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0"""Crea un fichero desde cero leyendo lineas desde teclado hasta que teclee fin"""\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0f=open(nombre,"w")\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0linea=raw_input("linea, fin acaba")\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0whike linea!="fin" and linea !="FIN"\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0f.wrige(linea)\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0linea=raw_input("linea,fin acaba")\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0f.close()\
+\
+nombre=raw_input("dame nombre del fichero")\
+nombre=nombre+".txt"\
+crecerFichero(nombre)\
+\
+\
+def volcarFichero():\
+"""vuelca el fichero nombre a la ventana de resultados"""\
+f=open(nombre,"r")\
+for linea in f:\
+\'a0\'a0\'a0print linea\
+f.close()\
+nombre=raw_input("dame nombre del fichero")\
+nombre =nombre+".txt"\
+volcarFichero(nombre)\
+\
+def ficheroAlista(nombre):\
+\'a0\'a0\'a0"""Crea una lista y la devuelve con el contenido de un fichero de enteros"""\
+\'a0\'a0\'a0l=[]\
+\'a0\'a0\'a0f=open(nombre,"r")\
+\'a0\'a0\'a0for linea in f:\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0l.append(int(linea))\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0f.close()\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0return l\
+}

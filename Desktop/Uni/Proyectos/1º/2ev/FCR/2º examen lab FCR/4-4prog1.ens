@@ -1,0 +1,30 @@
+ORIGEN 0ABCDh
+INICIO primera
+
+.DATOS
+  operando1 VALOR 3
+  operando2 VALOR 0Ch
+  resultado VALOR 0
+
+.CODIGO
+
+primera: 
+  ; Inicializar los punteros
+  movl r0, 03
+  movh r0, 00
+  movl r1, 0Ch
+  movh r1, 00h
+  movl r2, 00
+  movh r2, 00
+
+  ; Traer los operandos de memoria a registros
+  mov r3, [r0]
+  mov r4, [r1]
+
+  ; Hacer la suma
+  add r5, r3, r4
+
+  ; Llevar el resultado a memoria
+  mov [r2], r5
+
+FIN

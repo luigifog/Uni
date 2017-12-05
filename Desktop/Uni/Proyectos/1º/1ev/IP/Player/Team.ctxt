@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=name
+comment0.target=Team(java.lang.String)
+comment1.params=playerToAdd
+comment1.target=void\ add(Player)
+comment2.params=index\ playerToAdd
+comment2.target=void\ add(int,\ Player)
+comment2.text=\n\ M\u00E9todo\ que\ mete\ un\ jugador\ recibido\ como\ par\u00E1metro\ en\ la\ posici\u00F3n\ recibida\ como\ par\u00E1metro\n\ @param\ index\ posici\u00F3n\ en\ la\ que\ se\ a\u00F1ade\ al\ jugador,\ de\ tipo\ int\n\ @param\ jugador\ a\ a\u00F1adir,\ de\ tipo\ Player\n
+comment3.params=number
+comment3.target=Player\ seekPlayer(int)
+comment3.text=\n\ M\u00E9todo\ que\ devuelva\ el\ jugador\ cuyo\ n\u00FAmero\ de\ camiseta\ sea\ el\ que\ recibe\ como\ par\u00E1etro\n\ \n
+comment4.params=numero
+comment4.target=void\ removePlayer(int)
+comment4.text=\n\ Elimina\ el\ jugador\ cuyo\ n\u00FAmero\ de\ camiseta\ se\ recibe\ como\ par\u00E1metro\n\ \n
+comment5.params=numero
+comment5.target=void\ trainPlayers(int)
+comment5.text=\n\ Recoge\ en\ una\ lista\ todos\ los\ jugadores\ cuyo\ n\u00FAmero\ de\ camiseta\ sea\ impar\n\ @return\ lista\ de\ jugadores\ impares\n
+comment6.params=
+comment6.target=void\ seeContacts()
+numComments=7

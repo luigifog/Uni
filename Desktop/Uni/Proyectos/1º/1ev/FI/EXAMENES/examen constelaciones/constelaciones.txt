@@ -1,0 +1,6 @@
+Dubhe, 124.9, 5.7
+Merak, 79.5, 2.7
+Phecda, 84.5, 2.7
+Alioth, 81.8, 3
+Mizar y Lcor, 78.3, 8.2
+Benetnasch, 101.7, 6

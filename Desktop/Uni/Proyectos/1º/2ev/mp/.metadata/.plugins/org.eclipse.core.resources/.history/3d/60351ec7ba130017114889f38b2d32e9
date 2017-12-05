@@ -1,0 +1,11 @@
+package Queue;
+
+import java.util.LinkedList;
+
+public class LinkedListQueue extends ListQueue{
+	
+	public LinkedListQueue()
+	{
+		super(new LinkedList());
+	}
+}

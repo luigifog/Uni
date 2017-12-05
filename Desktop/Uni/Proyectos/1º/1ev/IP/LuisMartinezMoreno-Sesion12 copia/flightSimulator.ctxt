@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.params=
+comment0.target=flightSimulator()
+comment0.text=\n\ Constructor\ sin\ parametros\n
+comment1.params=planeToAdd
+comment1.target=boolean\ addPlane(Plane)
+comment1.text=\n\ A\u00F1ade\ un\ avion\ a\ la\ simulacion\n\ \n\ @param\ Plane,\ avion\ a\ a\u00F1adir,\ de\ tipo\ Plane\n\ @return\ true\ si\ lo\ ha\ podido\ a\u00F1adir\ y\ alse\ si\ ya\ habia\ uno\ en\ la\ misma\ posicion\n
+comment2.params=planeToCheck
+comment2.target=void\ checkPlane(Plane)
+comment3.params=
+comment3.target=void\ paint()
+comment3.text=\n\ Imprime\ el\ radar\ con\ todos\ los\ aviones\ imprimiendo\ virgulilla\ o\ bien\ el\ identificador\n\ del\ avion\ en\ la\ posicion\ correspondiente\n
+comment4.params=
+comment4.target=void\ simulate()
+comment4.text=\n\ Metodo\ que\ simula\ el\ vuelo\ de\ todos\ los\ aviones,\ \n\ si\ hay\ colisiones,\ debe\ imprimir\ la\ colision\ y\ eliminar\ los\ aviones\ colisionados\n\ Finalmente\ se\ imprime\ el\ radar\n
+comment5.params=
+comment5.target=void\ removeCollisions()
+comment5.text=\n\ Elimina\ de\ la\ lista\ de\ aviones\ todos\ los\ aviones\ situados\ en\ una\ posicion\ en\n\ la\ que\ haya\ colisionado\n
+comment6.params=x\ y
+comment6.target=void\ removePlanesInPosition(int,\ int)
+comment6.text=\nElimina\ de\ la\ lista\ de\ aviones\ todos\ los\ aviones\ situados\ en\ una\ posicion\ en\ la\ que\ haya\ colisionado\ \n\ \n\ @param\ row\ fila\n\ @param\ column\ columna\n
+comment7.params=x\ y
+comment7.target=Plane\ getPlanesInPosition(int,\ int)
+comment7.text=\n\ metodo\ que\ devuelve\ una\ lista\ con\ todos\ los\ aviones\ que\ esten\ en\ una\ determinada\ posicion\n\ \n\ @paran\ x\n\ @param\ y\n
+numComments=8

@@ -1,0 +1,74 @@
+##practica2.5.1, funciones
+##ejercicio 1
+#
+#n=int(raw_input("dame un numero"))
+#m=int(raw_input("dame un numero"))
+#
+#
+#def lee_entero():
+#    print n
+#
+#lee_entero()
+#def mayor():
+#    if( n>m):
+#        print(str(n)+" es el mayor numero")
+#    else:
+#        print (str(m)+" es el mayor num")
+#mayor()
+
+##ejercicio3
+#
+#b=int(raw_input("dame un numero"))
+#n=int(raw_input("dame un numero"))
+#m=int(raw_input("dame un numero"))
+#def mayor_de_tres():
+#    if(b>n and b>m):
+#        print b
+#    if(n>m and n>b):
+#        print n
+#    if(m>n and m>b):
+#        print m
+#
+#mayor_de_tres()
+
+#ejercicio 4
+#del royo de bisiestos, buscar las 
+#condiciones que tiene que
+#tener un bisiesto, copiarlas y pegarlas
+#en un documento y meterlas en lapiz porsiaca
+
+
+##ejercicio 5
+##ver si en vez del if se podria poner un while
+#n=float(raw_input("dame un numero"))
+#if(n>=0 and n<=10):
+#    def nota():
+#        if(n>=0 and n<5):
+#            print"suspenso"
+#        if(n>=5 and n<7):
+#            print"aprobado"
+#        if(n>=7 and n<9):
+#            print"notable"
+#        if(n>=9 and n<10):
+#            print "sobresaliente"
+#        if (n==10):
+#            print"matricula de honor"
+#    nota()
+
+##ejercicio 6
+#peso=float(raw_input("dame un peso"))
+#altura=float(raw_input("dame una altura"))
+#inmc=(peso/altura**2)
+#def imc():
+#    if (inmc<18.5):
+#        print"bajo peso"
+#    if(inmc>=18.5 and imc<25.0):
+#        print"normal"
+#    if(inmc>=25.0and imc<30.0):
+#        print "sobrepeso"
+#    if(inmc>=30.0):
+#        print "obesidad"
+#imc()
+    
+
+    

@@ -1,0 +1,410 @@
+package model;
+
+public class Conecta4 {
+	public final static int ROW = 6;
+	public final static int COL = 7;
+	public final static char AST = '*';
+	public final static char SUM = '+';
+	public final static char HUECO = '·';
+	private char[][] tablero;
+	public char firstPl;
+
+	public Conecta4() {
+		tablero = new char[ROW][COL];
+		rellenar();
+		getPl();
+	}
+
+	public Conecta4(int higt, int width) {
+		tablero = new char[higt][width];
+		if (higt <= 0 || width <= 0) {
+			throw new RuntimeException("parametros no correctos");
+		}
+		getPl();
+
+	}
+
+	public char getPl() {
+		return firstPl;
+	}
+
+	private void setPl(char newPl) {
+		if (newPl == AST || newPl == SUM) {
+			firstPl = newPl;
+		}
+	}
+
+	private void rellenar() {
+		for (int i = 0; i < tablero.length; i++) {
+			for (int j = 0; j < tablero[0].length; j++) {
+				tablero[i][j] = HUECO;
+			}
+		}
+	}
+
+	public char getCurrentPlayer() {
+
+		return (getPl());
+
+	}
+
+	public boolean play(int column) {
+		if (insertPiece(column) == true) {
+			changeCurrentPlayer();
+			return true;
+		}
+		return false;
+
+	}
+
+	public boolean finished() {
+		if(isWinner()==true)
+		{
+			return true;
+		}
+		if(fullBoard()==true)
+		{
+			return true;
+		}
+		return false;
+	}
+
+	public char winner() {
+		if(isWinnerColMas()==true||isWinnerRowMas()==true)
+		{
+			 return SUM;
+		}
+		if(isWinnerColAst()==true||isWinnerRowAst()==true)
+		{
+			return AST;
+		}
+		for (int i = 0; i < tablero.length; i++) {
+
+			for (int j = 0; j < tablero[0][j]; j++) 
+			{
+				if(dpSum(i,j)==true)
+				{
+					return SUM;
+				}
+				if(dpAst(i,j)==true)
+				{
+					return AST;
+				}
+				if(dnAst(i,j)==true)
+				{
+					return AST;
+				}
+				if(dnSum(i,j)==true)
+				{
+					return SUM;
+				}
+			}
+		}
+		return HUECO;
+	}
+
+	public String toString() {
+		String cad="";
+		for (int i = 0; i < tablero.length; i++) {
+
+			for (int j = 0; j < tablero[0].length; j++) 
+			{
+				cad=cad+tablero[i][j]+" ";
+			}
+			cad=cad+"\n";
+		}
+		return cad;
+			}
+	
+	public void printToString()
+	{
+		System.out.print(toString());
+	}
+	
+
+	// ---------------------------------------------------------------------------------------------------------
+	private boolean freeSite() {
+		for (int i = 0; i < tablero.length; i++) {
+			for (int j = tablero[0].length - 1; j < 0; j = j - 1) {
+				if (tablero[i][j] == HUECO) {
+					return true;
+				}
+			}
+
+		}
+		return false;
+	}
+
+	private boolean fullBoard() {
+		for (int i = 0; i < tablero.length; i++) {
+			for (int j = tablero[0].length - 1; j < 0; j = j - 1) {
+				if (freeSite() == false) {
+					return true;
+				}
+			}
+		}
+		return false;
+	}
+
+	private boolean isWinner() {
+		if (isWinnerRow() == true || isWinnerColumn() == true || isWinnerDiagonal() == true) {
+			return true;
+		}
+		return false;
+	}
+
+	private boolean isWinnerColMas() {
+		int cont = 0;
+		for (int j = 0; j < tablero[0].length; j++) {
+			for (int i = 0; i < tablero.length; i++) {
+				if (tablero[i][j] == SUM) {
+					cont++;
+				} else {
+					cont = 0;
+				}
+				if (cont == 4) {
+					return true;
+				}
+			}
+		}
+		return false;
+	}
+
+	private boolean isWinnerColAst() {
+		int cont = 0;
+		for (int j = 0; j < tablero[0].length; j++) {
+			for (int i = 0; i < tablero.length; i++) {
+				if (tablero[i][j] == AST) {
+					cont++;
+				} else {
+					cont = 0;
+				}
+				if (cont == 4) {
+					return true;
+				}
+			}
+		}
+		return false;
+	}
+
+	private boolean isWinnerRowMas() {
+		int cont = 0;
+		for (int i = 0; i < tablero.length; i++) {
+			cont = 0;
+			for (int j = 0; j < tablero[0].length; j++) {
+				if (tablero[i][j] == SUM) {
+					cont++;
+				} else {
+					cont = 0;
+				}
+
+				if (cont == 4) {
+					return true;
+				}
+			}
+
+		}
+		return false;
+	}
+
+	private boolean isWinnerRowAst() {
+		int cont = 0;
+		for (int i = 0; i < tablero.length; i++) {
+			cont = 0;
+			for (int j = 0; j < tablero[0].length; j++) {
+				if (tablero[i][j] == AST) {
+					cont++;
+				} else {
+					cont = 0;
+				}
+
+				if (cont == 4) {
+					return true;
+				}
+			}
+
+		}
+		return false;
+	}
+
+	private boolean isWinnerRow() {
+		if (isWinnerRowAst() == true) {
+			return true;
+		}
+		if (isWinnerRowMas() == true) {
+			return true;
+		}
+		return false;
+
+	}
+
+	private boolean isWinnerColumn() {
+		if (isWinnerColAst() == true) {
+			return true;
+		}
+		if (isWinnerColMas() == true) {
+			return true;
+		}
+		return false;
+	}
+
+	private boolean isWinnerDiagonal() {
+		for (int i = 0; i < tablero.length; i++) {
+
+			for (int j = 0; j < tablero[0].length; j++) 
+			{
+				if(dpSum(i,j)==true)
+				{
+					return true;
+				}
+				if(dpAst(i,j)==true)
+				{
+					return true;
+				}
+				if(dnAst(i,j)==true)
+				{
+					return true;
+				}
+				if(dnSum(i,j)==true)
+				{
+					return true;
+				}
+			}
+		}
+		return false;
+	}
+
+	private void changeCurrentPlayer() {
+		if (getPl() == AST) {
+			setPl(SUM);
+		} else {
+			setPl(AST);
+		}
+	}
+	
+	private boolean dpSum(int f, int c)
+	{
+		int contF=f;int contC=c;
+		int cont=0;
+		do
+		{
+			if(tablero[contF][contC]==SUM)
+			{
+				cont++;
+			}
+			else
+			{
+				cont=0;
+			}
+				contF++;
+				contC++;
+			
+		}while(contF<tablero.length &&contC<tablero[0].length);
+			
+				if(cont>=4)
+				{
+					return true;
+				}
+		
+		return false;
+		
+	}
+	private boolean dpAst(int f, int c)
+	{
+		int contF=f;int contC=c;
+		int cont=0;
+		do
+		{
+			if(tablero[contF][contC]==AST)
+			{
+				cont++;
+			}
+			else
+			{
+				cont=0;
+			}
+				contF++;
+				contC++;
+			
+		}while(contF<tablero.length &&contC<tablero[0].length);
+			
+				if(cont>=4)
+				{
+					return true;
+				}
+		
+		return false;
+		
+	}
+
+	private boolean dnSum(int f,int c)
+	{
+		int contF=f;int contC=c;
+		int cont=0;
+		do
+		{
+			if(tablero[contF][contC]==SUM)
+			{
+				cont++;
+			}
+			else
+			{
+				cont=0;
+			}
+				contF++;
+				contC--;
+			
+		}while(contF<tablero.length &&contC>=0);
+			
+				if(cont>=4)
+				{
+					return true;
+				}
+		
+		return false;
+		
+	}
+	
+	private boolean dnAst(int f,int c)
+	{
+		int contF=f;int contC=c;
+		int cont=0;
+		do
+		{
+			if(tablero[contF][contC]==AST)
+			{
+				cont++;
+			}
+			else
+			{
+				cont=0;
+			}
+				contF++;
+				contC++;
+			
+		while(contF<tablero.length &&contC>=0);
+			
+				if(cont>=4)
+				{
+					return true;
+				}
+		
+		return false;
+		}
+	}
+	private boolean insertPiece(int column) {
+		if (column > COL||column <0) {
+			throw new RuntimeException("datos no válidos");
+		}
+
+		for (int i = tablero.length - 1; i >= 0; i--) {
+			if (tablero[i][column] == '·') {
+				tablero[i][column] = getCurrentPlayer();
+				return true;
+			}
+		}
+		{
+			return false;
+		}
+	}
+}

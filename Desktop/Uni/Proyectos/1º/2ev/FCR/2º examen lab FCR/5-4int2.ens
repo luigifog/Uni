@@ -1,0 +1,36 @@
+ ORIGEN 300h
+ .PILA 20h
+ .CODIGO
+ MOVL R0, 3 ; Vector a modificar
+ MOVH R0, 0
+ MOVL R1, BYTEBAJO DIRECCION rutina_util
+ MOVH R1,BYTEALTO direccion rutina_util
+ MOV [R0],R1
+ STI ; Permitir interrupciones
+
+ ; Una vez instalada la rutina, el programa
+ ; principal se encierra en un bucle infinito
+ PorSiempre:
+ JMP PorSiempre
+
+ ; Y esta sería la rutina minima:
+ PROCEDIMIENTO rutina_util
+	;Salvar registros modificados
+	PUSH R0
+	PUSH R1
+	;leer en R1 el estado de los interruptores
+	
+	movl R0,00h
+	movh R0,0E0h
+	mov R1,[R0]
+	;escribir desde R1 a luces
+	mov [R0], R1
+ 
+	;Recuperar registros modificados
+	POP R1
+	POP R0 
+ 
+ IRET
+ FINP
+
+ FIN

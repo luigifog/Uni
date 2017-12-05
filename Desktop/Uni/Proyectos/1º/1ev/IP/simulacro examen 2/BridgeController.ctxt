@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=
+comment0.target=BridgeController()
+comment1.params=lever
+comment1.target=BridgeController(int)
+comment2.params=newLever
+comment2.target=void\ setLever(int)
+comment3.params=
+comment3.target=int\ getLever()
+comment4.params=clutch
+comment4.target=void\ setClutch(boolean)
+comment5.params=
+comment5.target=boolean\ getClutch()
+comment6.params=bridge
+comment6.target=void\ setBridge(BasculeBridge)
+comment7.params=
+comment7.target=BasculeBridge\ getBridge()
+comment8.params=press
+comment8.target=void\ changeClutch(boolean)
+comment9.params=lever
+comment9.target=void\ changeLever(int)
+numComments=10

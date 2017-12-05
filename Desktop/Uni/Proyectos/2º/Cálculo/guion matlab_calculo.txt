@@ -1,0 +1,20 @@
+﻿clc=borra lo de la ventana de comanods
+clear: borra todo
+format short: pocos decimales
+format long: más decimales
+%:para hacer un comentario
+abs(x)
+sin/cos/tan/asin/acos/atan(x):(en radianes)
+sind/cosd/tand/asind/acosd/atand(x):(en grados)
+exp(x)
+log(x):ln x
+sqrt(x)
+syms x y z: Crea las variables simbólicas x, y, z.
+solve(S): Calcula ceros de la expresión simbólica S.
+solve(S,z): Calcula ceros de la expresión simbólica S en la variable z.
+subs(S,x,a): Sustituye en la expresión simbólica S la variable x por a.
+pretty(S): Presenta de forma “elegante” la expresión S.
+double(S): Calcula el valor numérico en una expresión simbólica S.
+simplify(S): Simplifica la expresión simbólica S.
+expand(S): Desarrolla la expresión S como producto de sus factores.
+factor(S): Factoriza, si es posible, la expresión S.

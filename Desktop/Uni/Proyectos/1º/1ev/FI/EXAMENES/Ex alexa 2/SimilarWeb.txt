@@ -1,0 +1,101 @@
+Site;Domain;SimilarWeb Top Websites
+Google;google.com;2
+Facebook;facebook.com;1
+YouTube;youtube.com;3
+Yahoo!;yahoo.com;4
+Baidu;baidu.com;30
+Amazon.com;amazon.com;14
+Wikipedia;wikipedia.org;7
+Taobao;taobao.com;90
+Twitter;twitter.com;8
+Tencent QQ;qq.com;
+Google India;google.co.in;10
+Windows Live;live.com;5
+LinkedIn;linkedin.com;44
+Sina Corp;sina.com.cn;
+Tmall;tmall.com;
+Sina Weibo;weibo.com;
+Yahoo! Japan;yahoo.co.jp;53
+Blogspot;blogspot.com;
+eBay;ebay.com;20
+Yandex;yandex.ru;11
+Hao123;hao123.com;
+VKontakte;vk.com;6
+Google Germany;google.de;21
+Bing;bing.com;12
+Adcash;adcash.com;17
+Ask.com;ask.com;22
+Google Japan;google.co.jp;42
+Pinterest;pinterest.com;46
+reddit;reddit.com;50
+WordPress.com;wordpress.com;43
+MSN;msn.com;15
+Google UK;google.co.uk;13
+Sohu;sohu.com;
+Instagram;instagram.com;29
+tumblr;tumblr.com;26
+AliExpress;aliexpress.com;32
+Mail.Ru;mail.ru;25
+Amazon Japan;amazon.co.jp;
+Google France;google.fr;16
+Alibaba Group;alibaba.com;51
+PayPal;PayPal.com;54
+Google Brazil;google.com.br;9
+Imgur;imgur.com;61
+Google Russia;google.ru;23
+Apple Inc.;apple.com;56
+XVideos;xvideos.com;
+Microsoft;microsoft.com;40
+360 Safeguard;360.cn;
+Internet Movie Database;imdb.com;38
+Google Italy;google.it;27
+Amazon Germany;amazon.de;88
+Go.com;go.com;79
+t.co URL Shortening;t.co;74
+Google Spain;google.es;31
+FC2, Inc.;fc2.com;
+NetEase;163.com;
+Amazon UK;amazon.co.uk;72
+Soso.com;soso.com;
+Guangming Daily;gmw.cn;
+Stack Overflow;stackoverflow.com;
+xHamster;xhamster.com;34
+Craigslist;craigslist.org;41
+Google Mexico;google.com.mx;24
+Onclickads;Onclickads.net;65
+Google Canada;google.ca;19
+Netflix;netflix.com;60
+Google Hong Kong;google.com.hk;
+ESPN.com;espn.go.com;99
+Youradexchange;youradexchange.com;36
+Google AdSense;Googleadservices.com;
+Cntv;Cntv.cn;
+People's Daily;people.com.cn;
+Pornhub;pornhub.com;39
+Google Turkey;google.com.tr;28
+Rakuten;rakuten.co.jp;
+eBay Germany;ebay.de;
+BBC;bbc.co.uk;77
+CNN;cnn.com;
+Amazon China;amazon.cn;
+Naver;Naver.com;
+Xinhua News;xinhuanet.com;
+Walmart;walmart.com;
+Alipay;alipay.com;
+Google Poland;google.pl;33
+Dailymotion;dailymotion.com;86
+Dropbox;dropbox.com;84
+Google User Content;googleusercontent.com;
+Google Australia;google.com.au;37
+Flipkart;flipkart.com;
+The Huffington Post;huffingtonpost.com;
+Adobe Systems;adobe.com;71
+The Pirate Bay;thepiratebay.se;47
+eBay UK;ebay.co.uk;81
+Best Buy;bestbuy.com;
+Blogger;blogger.com;
+Buzzfeed;Buzzfeed.com;
+Xnxx;xnxx.com;57
+Odnoklassniki;odnoklassniki.ru;48
+KickassTorrents;kickass.so;95
+Akamai Technologies;Akamaihd.net;89

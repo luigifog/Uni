@@ -1,0 +1,47 @@
+[]   [" "|\t]==(\"|" "|"|"|\t)
+()
+{}
+|    (" "|\t)
+
+"0"|"1"|"2"|...|"9"
+[0-9]
+[0123456789]
+
+Ejercicios lex
+
+1)Extender los enteros con representacion binaria y hexadecimal
+  .xxxxb    x pertenece{0,1}
+  .0xXXX X pertenece{0,1.-,9,A,...,F}
+  
+
+2)Extender los reales con notacion cientifica
+	x.xxx e (+-) xxx
+	x pertence{0,1,...,9}
+	
+
+3)Comentarios multilinea
+
+-entre /*  y  */
+-contienen letras,digitos,blancos,tabs,nuevas lineas,!,?
+  
+  
+4)Indicar los nuevos elementos lexicos si extendemos MINILAN con los condicionales y bucles while, for.
+  
+	if(a > (3+4))
+		<sentence;>+
+	end if
+	while(3 < a)
+		<sentence;>+
+	end while
+	for(i=1:10:2)
+		<sentence;>*
+	end for
+	
+	RESPUESTA:
+		-if
+		-end if
+		-while
+		-end while
+		-for
+		-:
+		-end for

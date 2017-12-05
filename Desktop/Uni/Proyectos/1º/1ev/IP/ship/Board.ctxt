@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=row\ col
+comment0.target=Board(int,\ int)
+comment1.params=barco\ row
+comment1.target=boolean\ placeShip(Ship,\ int)
+comment2.params=
+comment2.target=void\ rellenar()
+comment3.params=row\ col\ pot
+comment3.target=boolean\ bombShip(int,\ int,\ int)
+comment4.params=
+comment4.target=int\ countSubmarines()
+comment5.params=col
+comment5.target=java.util.ArrayList\ shipNames(int)
+numComments=6

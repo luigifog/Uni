@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=newPosition
+comment0.target=void\ setMovePosition(int)
+comment1.params=
+comment1.target=int\ getMovePosition()
+comment2.params=
+comment2.target=void\ put0()
+comment3.params=
+comment3.target=void\ put10()
+comment4.params=
+comment4.target=java.lang.String\ toString()
+numComments=5

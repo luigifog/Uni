@@ -1,0 +1,76 @@
+TAREA 1
+
+int sumaDigitos(int n)
+	{
+		int a=0;
+		while(n>0)
+		{
+			a=a+(n-((n/10)*10));
+			n=n/10;
+			sumaDigitos(n);
+		}
+		if(n<1 && n>=0)
+		{
+			System.out.println(a);
+			return a;
+		}
+		
+
+	}
+	
+TAREA 2
+
+	int invertir(int n)
+	{
+		String a;
+		while( Integer.toString(n).size()>0);
+		{
+			a="";
+			String s=Integer.toString(n);
+			a+=s.substring(s.length()-1, s.length());
+			s=s.substring(0, s.length()-1);
+			n=Integer.parseInt(s);
+			invertir(n);
+		}
+		System.out.println(a);
+		return Integer.parseInt(a);
+	}
+} 
+
+TAREA 3
+
+	public int minimoVector(int[] vector,int sizeV,int min)
+	{
+		if(sizeV==0)
+		{
+			return vector[0];
+		}
+		else
+		{
+			 if (min > vector [sizeV]) return minimoVector (vector, sizeV - 1, vector [sizeV]);
+	            else return minimoVector (vector, sizeV - 1, min); 
+		}
+	}
+
+TAREA 4
+
+	public int sumaMatriz(int matriz[][],int fil,int col,int orden)
+	{
+		int aux;
+		if(orden==1)
+		{
+			return matriz[0][0];
+		}
+		else {
+			while(fil<orden)
+			{
+				while(col<orden)
+				{
+					return aux= aux+sumaMatriz(matriz [fil][col],fil,col--,orden);
+				}
+				fil--;
+		}
+			return 0;
+		}
+
+	}

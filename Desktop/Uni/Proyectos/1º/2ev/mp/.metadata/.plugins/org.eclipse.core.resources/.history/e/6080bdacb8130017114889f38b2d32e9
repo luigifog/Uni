@@ -1,0 +1,57 @@
+package Queue;
+
+import sesion08.collections.List;
+
+public class ListQueue implements Queue {
+
+	
+	private List list;
+	private static 
+	
+	public ListQueue(List list) {
+		this.list=list;
+	}
+	
+	
+	@Override
+	public void enqueue(Object element) {
+			checkNotNull(element);
+			list.add(,element);
+			
+		
+	}
+
+	@Override
+	public Object peek() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Object dequeue() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public int size() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public boolean isEmpty() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	
+	
+	
+	void checkNotNull(Object element)
+	{
+		if(element==null)
+			throw new IllegalArgumentException("objeto null");
+		
+	}
+}

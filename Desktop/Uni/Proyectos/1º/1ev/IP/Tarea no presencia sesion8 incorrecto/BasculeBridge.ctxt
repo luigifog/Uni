@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=position
+comment0.target=BasculeBridge(int)
+comment1.params=newPosition
+comment1.target=void\ setPosition(int)
+comment2.params=
+comment2.target=int\ getPosition()
+comment3.params=ammountInc
+comment3.target=void\ raiseBridge(int)
+comment4.params=ammountDec
+comment4.target=void\ dropBridge(int)
+comment5.params=inclination
+comment5.target=void\ slope(int)
+numComments=6

@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.params=newDriver
+comment0.target=void\ setDriverPresent(boolean)
+comment0.text=\nEste\ metodo\ modifica\ el\ atributo\ de\ si\ est\u00E1\ o\ no\ el\ conductor\n\n@param\ de\ tipo\ de\ tipo\ boolean\n
+comment1.params=
+comment1.target=boolean\ getDriverPresent()
+comment1.text=\n\ Este\ m\u00E9todo\ retorna\ el\ valor\ de\ si\ esta\ o\ no\ el\ conductor\n\ \n\ @param\ de\ tipo\ boolean\n
+comment2.params=
+comment2.target=Bus()
+comment3.params=newNumberOfSeats
+comment3.target=void\ setAvailableSeats(int)
+comment3.text=\n\ Este\ metodo\ modifica\ el\ numero\ de\ sillas,\ limitandolo\ a\ un\ maximo\ de\ 60\ y\ un\ minimo\ de\ 0.\n\ \n\ @param\ de\ tipo\ int\n
+comment4.params=
+comment4.target=int\ getAvailableSeats()
+comment4.text=\n\ Este\ metodo\ devuelve\ el\ valor\ cambiado\ en\ el\ metodo\ setter\n\ \n\ @param\ de\ tipo\ int\n
+comment5.params=newBus
+comment5.target=Bus(java.lang.String)
+comment5.text=\n\ Este\ metodo\ establece\ un\ bus\ con\ una\ caracter\u00EDsticas\ ya\ preestablecidas\n\ \n\ @param\ es\ un\ constructor\n
+comment6.params=
+comment6.target=void\ sitDriver()
+comment6.text=\n\ Este\ metodo\ vuelve\ el\ valor\ driverPresnt\ a\ true,\ por\ lo\ que\ el\ conductor\ estara\ en\ el\ bus\n\ \n\ \n
+comment7.params=availableSeats
+comment7.target=boolean\ getOn(int)
+comment7.text=\n\ Este\ metodo\ sirve\ para\ meter\ pasajeros\ y\ que\ se\ vaya\ disminuyendo\ el\ numero\ de\ asientos\ libres\n\ \n\ @param\ de\ tipo\ int\n
+comment8.params=
+comment8.target=java.lang.String\ toString()
+numComments=9

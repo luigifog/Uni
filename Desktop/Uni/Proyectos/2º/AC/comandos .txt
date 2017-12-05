@@ -1,0 +1,41 @@
+pwd: saber en que directorio te encuentras
+cd -: bajar un directorio
+cd: ir a home
+ls: listado
+nano-c: editor de ficheros
+mkdir: crear un directorio
+cp: copiar un archivo
+mv: mover archivo
+rm: borrar archivo
+En los archivos .h, se tiene que incluir al comienzo del código #pragma once
+lscpu y lshw: para ver info del hardware del ordenador
+top: mientras se ejecuta un programa se ve cuanta memoria y tal usa
+					···BitBucket···
+					
+git pull: traer algo del repositorio de bitbucket
+git add <fichero>: añadir fichero a gitgitBucket
+git commit: le das una razon de porque se actualizo
+git push: envias todo a bitbucket
+git status: para ver que esta y que no sbido a bitbucket
+
+
+					···Generar ejecutable ···
+					
+gcc -c <nombredelarchivo>.c :compila el prog en c
+ls *.o:esto se pone luego, para comprobar que esta el archivo compilado
+gcc <nombredelarchivo>.o -o <nombrefinal>:crea un ejecutable del archivo en codigo objeto
+./<nombredelejecutable>:ejecuta el archivo
+
+					···Optimizar···
+Si a la hora de generar el ejecutable, antes del -o ponemos -O1(ó O2 ó O3), 
+se hace mas optimizado el prog, se supone que O3 es el mas efectivo
+					
+Si en el manual trae que hay que enlazarlo con algo(-lm en el caso de sqrt),
+se pone cuando estas pasando del .o al ejecutable, al final de la linea
+
+					···Profiling···
+Si manda usa el gprof, para generarlo:(gcc prog.c -pg -o prog)
+time ./prog  :ejeecutamos el programa antes compilado
+gprof ./prog >informe.txt: generamos el informe con el gprof
+
+					···Simulador···

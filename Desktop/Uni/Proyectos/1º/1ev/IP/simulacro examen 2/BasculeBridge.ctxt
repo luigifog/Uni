@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=BasculeBridge()
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ BasculeBridge\n
+comment1.params=slope
+comment1.target=BasculeBridge(int)
+comment1.text=\n\ Creates\ a\ BasculeBridge\ object\ with\ a\ given\ slope\n\n\ @param\ slope\ The\ initial\ slope\ of\ the\ bridge\n
+comment2.params=slope
+comment2.target=void\ setSlope(int)
+comment3.params=
+comment3.target=int\ getSlope()
+comment4.params=increment
+comment4.target=void\ raiseBridge(int)
+comment4.text=\n\ Modifies\ the\ position\ of\ the\ bridge\ incrementing\ the\ current\ slope\ with\ the\ value\ passed\ as\ a\ parameter.\n\n\ @param\ increment\ A\ positive\ value\ that\ modifies\ the\ current\ bridge's\ slope\n
+comment5.params=decrement
+comment5.target=void\ dropBridge(int)
+numComments=6

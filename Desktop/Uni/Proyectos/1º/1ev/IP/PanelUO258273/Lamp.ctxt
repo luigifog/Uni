@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=newTurn
+comment0.target=void\ setTurnLamp(boolean)
+comment1.params=
+comment1.target=boolean\ getTurnLamp()
+comment1.text=\n\ Method\ getTurnLamp\ \n\ getter\ para\ la\ encender\ o\ apagar\ la\ bombilla\n\n\ @return\ The\ return\ value\n
+comment2.params=
+comment2.target=void\ turnOn()
+comment3.params=
+comment3.target=void\ turnOff()
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\n\ Method\ toString\nDevuelve\ un\ string,\ si\ la\ bombilla\ esta\ apagada\ devuelve\ un\ OFF\nen\ caso\ contrario\ devuelve\ un\ ON\n\ @return\ The\ return\ value\n
+numComments=5

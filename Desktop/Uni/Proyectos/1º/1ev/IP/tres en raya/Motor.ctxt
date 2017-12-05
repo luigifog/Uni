@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Motor()
+comment1.params=
+comment1.target=void\ print()
+comment2.params=
+comment2.target=boolean\ tableroCompleto()
+comment3.params=x\ y\ name
+comment3.target=boolean\ ocuparCasilla(int,\ int,\ java.lang.String)
+comment4.params=f\ name
+comment4.target=int\ cuantasf(int,\ java.lang.String)
+comment5.params=f\ name
+comment5.target=int\ cuantasc(int,\ java.lang.String)
+comment6.params=
+comment6.target=java.lang.String\ hayGanador()
+numComments=7

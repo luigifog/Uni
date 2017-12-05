@@ -1,0 +1,68 @@
+WebSite-Alexa Rank.SimilarWeb rank
+Google 2 1
+Facebook 1 2
+YouTube 3 3
+Yahoo! 4 4
+Baidu 30 5
+Amazon.com 14 6
+Wikipedia 7 7
+Taobao 90 8
+Twitter 8 9
+Google India 10 11
+Windows Live 5 12
+LinkedIn 44 13
+Yahoo! Japan 53 17
+eBay 20 19
+Yandex 11 20
+VKontakte 6 22
+Google Germany 21 23
+Bing 12 24
+Adcash 17 25
+Ask.com 22 26
+Google Japan 42 27
+Pinterest 46 28
+reddit 50 29
+WordPress.com 43 30
+MSN 15 31
+Google UK 13 32
+Instagram 29 34
+tumblr 26 35
+AliExpress 32 36
+Mail.Ru 25 37
+Google France 16 39
+Alibaba Group 51 40
+PayPal 54 41
+Google Brazil 9 42
+Imgur 61 43
+Google Russia 23 44
+Apple Inc. 56 45
+Microsoft 40 47
+Internet Movie Database 38 49
+Google Italy 27 50
+Amazon Germany 88 51
+Go.com 79 52
+t.co URL Shortening 74 53
+Google Spain 31 54
+Amazon UK 72 57
+xHamster 34 61
+Craigslist 41 62
+Google Mexico 24 63
+Onclickads 65 64
+Google Canada 19 65
+Netflix 60 66
+ESPN.com 99 68
+Youradexchange 36 69
+Pornhub 39 73
+Google Turkey 28 74
+BBC 77 77
+Google Poland 33 84
+Dailymotion 86 85
+Dropbox 84 86
+Google Australia 37 88
+Adobe Systems 71 91
+The Pirate Bay 47 92
+eBay UK 81 93
+Xnxx 57 97
+Odnoklassniki 48 98
+KickassTorrents 95 99
+Akamai Technologies 89 100

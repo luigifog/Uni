@@ -1,0 +1,13 @@
+Adeka ac
+sesion 1-1
+	No se como hacer que 1-1pointer2 me imprima el 3 
+	En el 1-1add. me reporta un error que no se solucionar
+	Como se hace el 1-1copy.c
+	
+sesion 1-2
+	como funciona el makefile de  1-2thread
+	
+sesion 2-1
+	porque para llamar a una funcion, siempre se usa el jal
+	Que hace el data y el control
+	Completar-corregir el 2-1compare.s

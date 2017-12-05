@@ -1,0 +1,2163 @@
+<componentes version='1' nombre='alu4' tipo='componente'>
+	<componente>
+		<nombre>Definido</nombre>
+		<centro x='640' y='320'/>
+		<lado>100</lado>
+		<grados>0</grados>
+		<nombre_especifico>nor4</nombre_especifico>
+		<ancho_dibujo>40</ancho_dibujo>
+		<alto_dibujo>80</alto_dibujo>
+		<offset_entrada x='-30' y='-30'/>
+		<offset_entrada x='-30' y='-10'/>
+		<offset_entrada x='-30' y='10'/>
+		<offset_entrada x='-30' y='30'/>
+		<offset_salida x='30' y='-30'/>
+		<mapeo_entrada clave='e3' valor='3'/>
+		<mapeo_entrada clave='e2' valor='2'/>
+		<mapeo_entrada clave='e1' valor='1'/>
+		<mapeo_entrada clave='e0' valor='0'/>
+		<mapeo_salida clave='s' valor='0'/>
+		<mostrar_patillas/>
+	</componente>
+	<componente>
+		<nombre>Punto</nombre>
+		<centro x='750' y='290'/>
+		<lado>10</lado>
+		<grados>0</grados>
+		<etiqueta>z</etiqueta>
+		<es_salida>derecha</es_salida>
+		<num_salida>4</num_salida>
+	</componente>
+	<componente>
+		<nombre>Punto</nombre>
+		<centro x='550' y='290'/>
+		<lado>10</lado>
+		<grados>0</grados>
+	</componente>
+	<componente>
+		<nombre>Punto</nombre>
+		<centro x='750' y='240'/>
+		<lado>10</lado>
+		<grados>0</grados>
+		<etiqueta>s</etiqueta>
+		<es_salida>derecha</es_salida>
+		<num_salida>7</num_salida>
+	</componente>
+	<componente>
+		<nombre>Xor</nombre>
+		<centro x='640' y='150'/>
+		<lado>60</lado>
+		<grados>0</grados>
+	</componente>
+	<componente>
+		<nombre>Punto</nombre>
+		<centro x='170' y='480'/>
+		<lado>10</lado>
+		<grados>0</grados>
+	</componente>
+	<componente>
+		<nombre>Punto</nombre>
+		<centro x='750' y='150'/>
+		<lado>10</lado>
+		<grados>0</grados>
+		<etiqueta>c</etiqueta>
+		<es_salida>derecha</es_salida>
+		<num_salida>5</num_salida>
+	</componente>
+	<componente>
+		<nombre>Definido</nombre>
+		<centro x='620' y='490'/>
+		<lado>80</lado>
+		<grados>0</grados>
+		<nombre_especifico>gen-ov-s</nombre_especifico>
+		<ancho_dibujo>60</ancho_dibujo>
+		<alto_dibujo>20</alto_dibujo>
+		<offset_entrada x='-20' y='20'/>
+		<offset_entrada x='0' y='20'/>
+		<offset_entrada x='20' y='20'/>
+		<offset_salida x='40' y='0'/>
+		<mapeo_entrada clave='an-1' valor='0'/>
+		<mapeo_entrada clave='sn-1' valor='2'/>
+		<mapeo_entrada clave='bn-1' valor='1'/>
+		<mapeo_salida clave='ov' valor='0'/>
+		<mostrar_patillas/>
+	</componente>
+	<componente>
+		<nombre>Xor</nombre>
+		<centro x='620' y='600'/>
+		<lado>60</lado>
+		<grados>270</grados>
+	</componente>
+	<componente>
+		<nombre>Punto</nombre>
+		<centro x='630' y='670'/>
+		<lado>10</lado>
+		<grados>0</grados>
+	</componente>
+	<componente>
+		<nombre>Punto</nombre>
+		<centro x='750' y='490'/>
+		<lado>10</lado>
+		<grados>0</grados>
+		<etiqueta>o</etiqueta>
+		<es_salida>derecha</es_salida>
+		<num_salida>6</num_salida>
+	</componente>
+	<componente>
+		<nombre>Punto</nombre>
+		<centro x='250' y='550'/>
+		<lado>10</lado>
+		<grados>0</grados>
+	</componente>
+	<componente>
+		<nombre>Punto</nombre>
+		<centro x='490' y='390'/>
+		<lado>10</lado>
+		<grados>0</grados>
+	</componente>
+	<componente>
+		<nombre>Punto</nombre>
+		<centro x='250' y='390'/>
+		<lado>10</lado>
+		<grados>0</grados>
+	</componente>
+	<componente>
+		<nombre>Punto</nombre>
+		<centro x='530' y='530'/>
+		<lado>10</lado>
+		<grados>0</grados>
+	</componente>
+	<componente>
+		<nombre>Punto</nombre>
+		<centro x='250' y='80'/>
+		<lado>10</lado>
+		<grados>0</grados>
+		<etiqueta>r3</etiqueta>
+		<es_salida>arriba</es_salida>
+		<num_salida>0</num_salida>
+	</componente>
+	<componente>
+		<nombre>Punto</nombre>
+		<centro x='270' y='80'/>
+		<lado>10</lado>
+		<grados>0</grados>
+		<etiqueta>r2</etiqueta>
+		<es_salida>arriba</es_salida>
+		<num_salida>1</num_salida>
+	</componente>
+	<componente>
+		<nombre>Punto</nombre>
+		<centro x='290' y='80'/>
+		<lado>10</lado>
+		<grados>0</grados>
+		<etiqueta>r1</etiqueta>
+		<es_salida>arriba</es_salida>
+		<num_salida>2</num_salida>
+	</componente>
+	<componente>
+		<nombre>Punto</nombre>
+		<centro x='310' y='80'/>
+		<lado>10</lado>
+		<grados>0</grados>
+		<etiqueta>r0</etiqueta>
+		<es_salida>arriba</es_salida>
+		<num_salida>3</num_salida>
+	</componente>
+	<componente>
+		<nombre>Punto</nombre>
+		<centro x='250' y='290'/>
+		<lado>10</lado>
+		<grados>0</grados>
+	</componente>
+	<componente>
+		<nombre>Punto</nombre>
+		<centro x='270' y='310'/>
+		<lado>10</lado>
+		<grados>0</grados>
+	</componente>
+	<componente>
+		<nombre>Punto</nombre>
+		<centro x='290' y='330'/>
+		<lado>10</lado>
+		<grados>0</grados>
+	</componente>
+	<componente>
+		<nombre>Punto</nombre>
+		<centro x='310' y='350'/>
+		<lado>10</lado>
+		<grados>0</grados>
+	</componente>
+	<componente>
+		<nombre>Punto</nombre>
+		<centro x='250' y='740'/>
+		<lado>10</lado>
+		<grados>0</grados>
+		<etiqueta>a3</etiqueta>
+		<es_entrada>abajo</es_entrada>
+		<num_entrada>4</num_entrada>
+	</componente>
+	<componente>
+		<nombre>Punto</nombre>
+		<centro x='270' y='740'/>
+		<lado>10</lado>
+		<grados>0</grados>
+		<etiqueta>a2</etiqueta>
+		<es_entrada>abajo</es_entrada>
+		<num_entrada>5</num_entrada>
+	</componente>
+	<componente>
+		<nombre>Punto</nombre>
+		<centro x='290' y='740'/>
+		<lado>10</lado>
+		<grados>0</grados>
+		<etiqueta>a1</etiqueta>
+		<es_entrada>abajo</es_entrada>
+		<num_entrada>6</num_entrada>
+	</componente>
+	<componente>
+		<nombre>Punto</nombre>
+		<centro x='310' y='740'/>
+		<lado>10</lado>
+		<grados>0</grados>
+		<etiqueta>a0</etiqueta>
+		<es_entrada>abajo</es_entrada>
+		<num_entrada>7</num_entrada>
+	</componente>
+	<componente>
+		<nombre>Punto</nombre>
+		<centro x='330' y='740'/>
+		<lado>10</lado>
+		<grados>0</grados>
+		<etiqueta>b3</etiqueta>
+		<es_entrada>abajo</es_entrada>
+		<num_entrada>8</num_entrada>
+	</componente>
+	<componente>
+		<nombre>Punto</nombre>
+		<centro x='350' y='740'/>
+		<lado>10</lado>
+		<grados>0</grados>
+		<etiqueta>b2</etiqueta>
+		<es_entrada>abajo</es_entrada>
+		<num_entrada>9</num_entrada>
+	</componente>
+	<componente>
+		<nombre>Punto</nombre>
+		<centro x='370' y='740'/>
+		<lado>10</lado>
+		<grados>0</grados>
+		<etiqueta>b1</etiqueta>
+		<es_entrada>abajo</es_entrada>
+		<num_entrada>10</num_entrada>
+	</componente>
+	<componente>
+		<nombre>Punto</nombre>
+		<centro x='390' y='740'/>
+		<lado>10</lado>
+		<grados>0</grados>
+		<etiqueta>b0</etiqueta>
+		<es_entrada>abajo</es_entrada>
+		<num_entrada>11</num_entrada>
+	</componente>
+	<componente>
+		<nombre>Punto</nombre>
+		<centro x='330' y='670'/>
+		<lado>10</lado>
+		<grados>0</grados>
+	</componente>
+	<componente>
+		<nombre>Punto</nombre>
+		<centro x='90' y='440'/>
+		<lado>10</lado>
+		<grados>0</grados>
+		<etiqueta>op1</etiqueta>
+		<es_entrada>izquierda</es_entrada>
+		<num_entrada>0</num_entrada>
+	</componente>
+	<componente>
+		<nombre>Punto</nombre>
+		<centro x='90' y='460'/>
+		<lado>10</lado>
+		<grados>0</grados>
+		<etiqueta>op0</etiqueta>
+		<es_entrada>izquierda</es_entrada>
+		<num_entrada>1</num_entrada>
+	</componente>
+	<componente>
+		<nombre>Punto</nombre>
+		<centro x='90' y='480'/>
+		<lado>10</lado>
+		<grados>0</grados>
+		<etiqueta>compl-1</etiqueta>
+		<es_entrada>izquierda</es_entrada>
+		<num_entrada>2</num_entrada>
+	</componente>
+	<componente>
+		<nombre>Punto</nombre>
+		<centro x='90' y='500'/>
+		<lado>10</lado>
+		<grados>0</grados>
+		<etiqueta>cin</etiqueta>
+		<es_entrada>izquierda</es_entrada>
+		<num_entrada>3</num_entrada>
+	</componente>
+	<componente>
+		<nombre>Definido</nombre>
+		<centro x='320' y='470'/>
+		<lado>180</lado>
+		<grados>0</grados>
+		<nombre_especifico>alu4-nf</nombre_especifico>
+		<ancho_dibujo>160</ancho_dibujo>
+		<alto_dibujo>80</alto_dibujo>
+		<offset_entrada x='-90' y='-30'/>
+		<offset_entrada x='-90' y='-10'/>
+		<offset_entrada x='-90' y='10'/>
+		<offset_entrada x='-90' y='30'/>
+		<offset_entrada x='-70' y='50'/>
+		<offset_entrada x='-50' y='50'/>
+		<offset_entrada x='-30' y='50'/>
+		<offset_entrada x='-10' y='50'/>
+		<offset_entrada x='10' y='50'/>
+		<offset_entrada x='30' y='50'/>
+		<offset_entrada x='50' y='50'/>
+		<offset_entrada x='70' y='50'/>
+		<offset_salida x='-70' y='-50'/>
+		<offset_salida x='-50' y='-50'/>
+		<offset_salida x='-30' y='-50'/>
+		<offset_salida x='-10' y='-50'/>
+		<offset_salida x='90' y='-30'/>
+		<mapeo_entrada clave='b3' valor='8'/>
+		<mapeo_entrada clave='b2' valor='9'/>
+		<mapeo_entrada clave='b1' valor='10'/>
+		<mapeo_entrada clave='b0' valor='11'/>
+		<mapeo_entrada clave='a3' valor='4'/>
+		<mapeo_entrada clave='compl-1' valor='2'/>
+		<mapeo_entrada clave='a2' valor='5'/>
+		<mapeo_entrada clave='cin' valor='3'/>
+		<mapeo_entrada clave='a1' valor='6'/>
+		<mapeo_entrada clave='op1' valor='0'/>
+		<mapeo_entrada clave='a0' valor='7'/>
+		<mapeo_entrada clave='op0' valor='1'/>
+		<mapeo_salida clave='r3' valor='0'/>
+		<mapeo_salida clave='r2' valor='1'/>
+		<mapeo_salida clave='r1' valor='2'/>
+		<mapeo_salida clave='r0' valor='3'/>
+		<mapeo_salida clave='cout' valor='4'/>
+		<mostrar_patillas/>
+	</componente>
+	<conexion>
+		<origen x='670' y='290' />
+		<destino x='745' y='290' />
+		<punto x='675' y='290' />
+		<punto x='680' y='290' />
+		<punto x='685' y='290' />
+		<punto x='690' y='290' />
+		<punto x='695' y='290' />
+		<punto x='700' y='290' />
+		<punto x='705' y='290' />
+		<punto x='710' y='290' />
+		<punto x='715' y='290' />
+		<punto x='720' y='290' />
+		<punto x='725' y='290' />
+		<punto x='730' y='290' />
+		<punto x='735' y='290' />
+		<punto x='740' y='290' />
+	</conexion>
+	<conexion>
+		<origen x='555' y='290' />
+		<destino x='610' y='290' />
+		<punto x='560' y='290' />
+		<punto x='565' y='290' />
+		<punto x='570' y='290' />
+		<punto x='575' y='290' />
+		<punto x='580' y='290' />
+		<punto x='585' y='290' />
+		<punto x='590' y='290' />
+		<punto x='595' y='290' />
+		<punto x='600' y='290' />
+		<punto x='605' y='290' />
+	</conexion>
+	<conexion>
+		<origen x='550' y='285' />
+		<destino x='745' y='240' />
+		<punto x='550' y='280' />
+		<punto x='550' y='275' />
+		<punto x='550' y='270' />
+		<punto x='550' y='265' />
+		<punto x='550' y='260' />
+		<punto x='550' y='255' />
+		<punto x='550' y='250' />
+		<punto x='550' y='245' />
+		<punto x='550' y='240' />
+		<punto x='555' y='240' />
+		<punto x='560' y='240' />
+		<punto x='565' y='240' />
+		<punto x='570' y='240' />
+		<punto x='575' y='240' />
+		<punto x='580' y='240' />
+		<punto x='585' y='240' />
+		<punto x='590' y='240' />
+		<punto x='595' y='240' />
+		<punto x='600' y='240' />
+		<punto x='605' y='240' />
+		<punto x='610' y='240' />
+		<punto x='615' y='240' />
+		<punto x='620' y='240' />
+		<punto x='625' y='240' />
+		<punto x='630' y='240' />
+		<punto x='635' y='240' />
+		<punto x='640' y='240' />
+		<punto x='645' y='240' />
+		<punto x='650' y='240' />
+		<punto x='655' y='240' />
+		<punto x='660' y='240' />
+		<punto x='665' y='240' />
+		<punto x='670' y='240' />
+		<punto x='675' y='240' />
+		<punto x='680' y='240' />
+		<punto x='685' y='240' />
+		<punto x='690' y='240' />
+		<punto x='695' y='240' />
+		<punto x='700' y='240' />
+		<punto x='705' y='240' />
+		<punto x='710' y='240' />
+		<punto x='715' y='240' />
+		<punto x='720' y='240' />
+		<punto x='725' y='240' />
+		<punto x='730' y='240' />
+		<punto x='735' y='240' />
+		<punto x='740' y='240' />
+	</conexion>
+	<conexion>
+		<origen x='170' y='475' />
+		<destino x='610' y='140' />
+		<punto x='170' y='470' />
+		<punto x='170' y='465' />
+		<punto x='170' y='460' />
+		<punto x='170' y='455' />
+		<punto x='170' y='450' />
+		<punto x='170' y='445' />
+		<punto x='170' y='440' />
+		<punto x='170' y='435' />
+		<punto x='170' y='430' />
+		<punto x='170' y='425' />
+		<punto x='170' y='420' />
+		<punto x='170' y='415' />
+		<punto x='170' y='410' />
+		<punto x='170' y='405' />
+		<punto x='170' y='400' />
+		<punto x='170' y='395' />
+		<punto x='170' y='390' />
+		<punto x='170' y='385' />
+		<punto x='170' y='380' />
+		<punto x='170' y='375' />
+		<punto x='170' y='370' />
+		<punto x='170' y='365' />
+		<punto x='170' y='360' />
+		<punto x='170' y='355' />
+		<punto x='170' y='350' />
+		<punto x='170' y='345' />
+		<punto x='170' y='340' />
+		<punto x='170' y='335' />
+		<punto x='170' y='330' />
+		<punto x='170' y='325' />
+		<punto x='170' y='320' />
+		<punto x='170' y='315' />
+		<punto x='170' y='310' />
+		<punto x='170' y='305' />
+		<punto x='170' y='300' />
+		<punto x='170' y='295' />
+		<punto x='170' y='290' />
+		<punto x='170' y='285' />
+		<punto x='170' y='280' />
+		<punto x='170' y='275' />
+		<punto x='170' y='270' />
+		<punto x='170' y='265' />
+		<punto x='170' y='260' />
+		<punto x='170' y='255' />
+		<punto x='170' y='250' />
+		<punto x='170' y='245' />
+		<punto x='170' y='240' />
+		<punto x='170' y='235' />
+		<punto x='170' y='230' />
+		<punto x='170' y='225' />
+		<punto x='170' y='220' />
+		<punto x='170' y='215' />
+		<punto x='170' y='210' />
+		<punto x='170' y='205' />
+		<punto x='170' y='200' />
+		<punto x='170' y='195' />
+		<punto x='170' y='190' />
+		<punto x='170' y='185' />
+		<punto x='170' y='180' />
+		<punto x='170' y='175' />
+		<punto x='170' y='170' />
+		<punto x='170' y='165' />
+		<punto x='170' y='160' />
+		<punto x='170' y='155' />
+		<punto x='170' y='150' />
+		<punto x='170' y='145' />
+		<punto x='170' y='140' />
+		<punto x='175' y='140' />
+		<punto x='180' y='140' />
+		<punto x='185' y='140' />
+		<punto x='190' y='140' />
+		<punto x='195' y='140' />
+		<punto x='200' y='140' />
+		<punto x='205' y='140' />
+		<punto x='210' y='140' />
+		<punto x='215' y='140' />
+		<punto x='220' y='140' />
+		<punto x='225' y='140' />
+		<punto x='230' y='140' />
+		<punto x='235' y='140' />
+		<punto x='240' y='140' />
+		<punto x='245' y='140' />
+		<punto x='250' y='140' />
+		<punto x='255' y='140' />
+		<punto x='260' y='140' />
+		<punto x='265' y='140' />
+		<punto x='270' y='140' />
+		<punto x='275' y='140' />
+		<punto x='280' y='140' />
+		<punto x='285' y='140' />
+		<punto x='290' y='140' />
+		<punto x='295' y='140' />
+		<punto x='300' y='140' />
+		<punto x='305' y='140' />
+		<punto x='310' y='140' />
+		<punto x='315' y='140' />
+		<punto x='320' y='140' />
+		<punto x='325' y='140' />
+		<punto x='330' y='140' />
+		<punto x='335' y='140' />
+		<punto x='340' y='140' />
+		<punto x='345' y='140' />
+		<punto x='350' y='140' />
+		<punto x='355' y='140' />
+		<punto x='360' y='140' />
+		<punto x='365' y='140' />
+		<punto x='370' y='140' />
+		<punto x='375' y='140' />
+		<punto x='380' y='140' />
+		<punto x='385' y='140' />
+		<punto x='390' y='140' />
+		<punto x='395' y='140' />
+		<punto x='400' y='140' />
+		<punto x='405' y='140' />
+		<punto x='410' y='140' />
+		<punto x='415' y='140' />
+		<punto x='420' y='140' />
+		<punto x='425' y='140' />
+		<punto x='430' y='140' />
+		<punto x='435' y='140' />
+		<punto x='440' y='140' />
+		<punto x='445' y='140' />
+		<punto x='450' y='140' />
+		<punto x='455' y='140' />
+		<punto x='460' y='140' />
+		<punto x='465' y='140' />
+		<punto x='470' y='140' />
+		<punto x='475' y='140' />
+		<punto x='480' y='140' />
+		<punto x='485' y='140' />
+		<punto x='490' y='140' />
+		<punto x='495' y='140' />
+		<punto x='500' y='140' />
+		<punto x='505' y='140' />
+		<punto x='510' y='140' />
+		<punto x='515' y='140' />
+		<punto x='520' y='140' />
+		<punto x='525' y='140' />
+		<punto x='530' y='140' />
+		<punto x='535' y='140' />
+		<punto x='540' y='140' />
+		<punto x='545' y='140' />
+		<punto x='550' y='140' />
+		<punto x='555' y='140' />
+		<punto x='560' y='140' />
+		<punto x='565' y='140' />
+		<punto x='570' y='140' />
+		<punto x='575' y='140' />
+		<punto x='580' y='140' />
+		<punto x='585' y='140' />
+		<punto x='590' y='140' />
+		<punto x='595' y='140' />
+		<punto x='600' y='140' />
+		<punto x='605' y='140' />
+	</conexion>
+	<conexion>
+		<origen x='670' y='150' />
+		<destino x='745' y='150' />
+		<punto x='675' y='150' />
+		<punto x='680' y='150' />
+		<punto x='685' y='150' />
+		<punto x='690' y='150' />
+		<punto x='695' y='150' />
+		<punto x='700' y='150' />
+		<punto x='705' y='150' />
+		<punto x='710' y='150' />
+		<punto x='715' y='150' />
+		<punto x='720' y='150' />
+		<punto x='725' y='150' />
+		<punto x='730' y='150' />
+		<punto x='735' y='150' />
+		<punto x='740' y='150' />
+	</conexion>
+	<conexion>
+		<origen x='170' y='485' />
+		<destino x='610' y='630' />
+		<punto x='170' y='490' />
+		<punto x='170' y='495' />
+		<punto x='170' y='500' />
+		<punto x='170' y='505' />
+		<punto x='170' y='510' />
+		<punto x='170' y='515' />
+		<punto x='170' y='520' />
+		<punto x='170' y='525' />
+		<punto x='170' y='530' />
+		<punto x='170' y='535' />
+		<punto x='170' y='540' />
+		<punto x='170' y='545' />
+		<punto x='170' y='550' />
+		<punto x='170' y='555' />
+		<punto x='170' y='560' />
+		<punto x='170' y='565' />
+		<punto x='170' y='570' />
+		<punto x='170' y='575' />
+		<punto x='170' y='580' />
+		<punto x='170' y='585' />
+		<punto x='170' y='590' />
+		<punto x='170' y='595' />
+		<punto x='170' y='600' />
+		<punto x='170' y='605' />
+		<punto x='170' y='610' />
+		<punto x='170' y='615' />
+		<punto x='170' y='620' />
+		<punto x='170' y='625' />
+		<punto x='170' y='630' />
+		<punto x='170' y='635' />
+		<punto x='175' y='635' />
+		<punto x='180' y='635' />
+		<punto x='185' y='635' />
+		<punto x='190' y='635' />
+		<punto x='195' y='635' />
+		<punto x='200' y='635' />
+		<punto x='205' y='635' />
+		<punto x='210' y='635' />
+		<punto x='215' y='635' />
+		<punto x='220' y='635' />
+		<punto x='225' y='635' />
+		<punto x='230' y='635' />
+		<punto x='235' y='635' />
+		<punto x='240' y='635' />
+		<punto x='245' y='635' />
+		<punto x='250' y='635' />
+		<punto x='255' y='635' />
+		<punto x='260' y='635' />
+		<punto x='265' y='635' />
+		<punto x='270' y='635' />
+		<punto x='275' y='635' />
+		<punto x='280' y='635' />
+		<punto x='285' y='635' />
+		<punto x='290' y='635' />
+		<punto x='295' y='635' />
+		<punto x='300' y='635' />
+		<punto x='305' y='635' />
+		<punto x='310' y='635' />
+		<punto x='315' y='635' />
+		<punto x='320' y='635' />
+		<punto x='325' y='635' />
+		<punto x='330' y='635' />
+		<punto x='335' y='635' />
+		<punto x='340' y='635' />
+		<punto x='345' y='635' />
+		<punto x='350' y='635' />
+		<punto x='355' y='635' />
+		<punto x='360' y='635' />
+		<punto x='365' y='635' />
+		<punto x='370' y='635' />
+		<punto x='375' y='635' />
+		<punto x='380' y='635' />
+		<punto x='385' y='635' />
+		<punto x='390' y='635' />
+		<punto x='395' y='635' />
+		<punto x='400' y='635' />
+		<punto x='405' y='635' />
+		<punto x='410' y='635' />
+		<punto x='415' y='635' />
+		<punto x='420' y='635' />
+		<punto x='425' y='635' />
+		<punto x='430' y='635' />
+		<punto x='435' y='635' />
+		<punto x='440' y='635' />
+		<punto x='445' y='635' />
+		<punto x='450' y='635' />
+		<punto x='455' y='635' />
+		<punto x='460' y='635' />
+		<punto x='465' y='635' />
+		<punto x='470' y='635' />
+		<punto x='475' y='635' />
+		<punto x='480' y='635' />
+		<punto x='485' y='635' />
+		<punto x='490' y='635' />
+		<punto x='495' y='635' />
+		<punto x='500' y='635' />
+		<punto x='505' y='635' />
+		<punto x='510' y='635' />
+		<punto x='515' y='635' />
+		<punto x='520' y='635' />
+		<punto x='525' y='635' />
+		<punto x='530' y='635' />
+		<punto x='535' y='635' />
+		<punto x='540' y='635' />
+		<punto x='545' y='635' />
+		<punto x='550' y='635' />
+		<punto x='555' y='635' />
+		<punto x='560' y='635' />
+		<punto x='565' y='635' />
+		<punto x='570' y='635' />
+		<punto x='575' y='635' />
+		<punto x='580' y='635' />
+		<punto x='585' y='635' />
+		<punto x='590' y='635' />
+		<punto x='595' y='635' />
+		<punto x='600' y='635' />
+		<punto x='605' y='635' />
+		<punto x='610' y='635' />
+	</conexion>
+	<conexion>
+		<origen x='620' y='570' />
+		<destino x='620' y='510' />
+		<punto x='620' y='565' />
+		<punto x='620' y='560' />
+		<punto x='620' y='555' />
+		<punto x='620' y='550' />
+		<punto x='620' y='545' />
+		<punto x='620' y='540' />
+		<punto x='620' y='535' />
+		<punto x='620' y='530' />
+		<punto x='620' y='525' />
+		<punto x='620' y='520' />
+		<punto x='620' y='515' />
+	</conexion>
+	<conexion>
+		<origen x='630' y='665' />
+		<destino x='630' y='630' />
+		<punto x='630' y='660' />
+		<punto x='630' y='655' />
+		<punto x='630' y='650' />
+		<punto x='630' y='645' />
+		<punto x='630' y='640' />
+		<punto x='630' y='635' />
+	</conexion>
+	<conexion>
+		<origen x='660' y='490' />
+		<destino x='745' y='490' />
+		<punto x='665' y='490' />
+		<punto x='670' y='490' />
+		<punto x='675' y='490' />
+		<punto x='680' y='490' />
+		<punto x='685' y='490' />
+		<punto x='690' y='490' />
+		<punto x='695' y='490' />
+		<punto x='700' y='490' />
+		<punto x='705' y='490' />
+		<punto x='710' y='490' />
+		<punto x='715' y='490' />
+		<punto x='720' y='490' />
+		<punto x='725' y='490' />
+		<punto x='730' y='490' />
+		<punto x='735' y='490' />
+		<punto x='740' y='490' />
+	</conexion>
+	<conexion>
+		<origen x='255' y='390' />
+		<destino x='485' y='390' />
+		<punto x='260' y='390' />
+		<punto x='265' y='390' />
+		<punto x='270' y='390' />
+		<punto x='275' y='390' />
+		<punto x='280' y='390' />
+		<punto x='285' y='390' />
+		<punto x='290' y='390' />
+		<punto x='295' y='390' />
+		<punto x='300' y='390' />
+		<punto x='305' y='390' />
+		<punto x='310' y='390' />
+		<punto x='315' y='390' />
+		<punto x='320' y='390' />
+		<punto x='325' y='390' />
+		<punto x='330' y='390' />
+		<punto x='335' y='390' />
+		<punto x='340' y='390' />
+		<punto x='345' y='390' />
+		<punto x='350' y='390' />
+		<punto x='355' y='390' />
+		<punto x='360' y='390' />
+		<punto x='365' y='390' />
+		<punto x='370' y='390' />
+		<punto x='375' y='390' />
+		<punto x='380' y='390' />
+		<punto x='385' y='390' />
+		<punto x='390' y='390' />
+		<punto x='395' y='390' />
+		<punto x='400' y='390' />
+		<punto x='405' y='390' />
+		<punto x='410' y='390' />
+		<punto x='415' y='390' />
+		<punto x='420' y='390' />
+		<punto x='425' y='390' />
+		<punto x='430' y='390' />
+		<punto x='435' y='390' />
+		<punto x='440' y='390' />
+		<punto x='445' y='390' />
+		<punto x='450' y='390' />
+		<punto x='455' y='390' />
+		<punto x='460' y='390' />
+		<punto x='465' y='390' />
+		<punto x='470' y='390' />
+		<punto x='475' y='390' />
+		<punto x='480' y='390' />
+	</conexion>
+	<conexion>
+		<origen x='250' y='285' />
+		<destino x='250' y='85' />
+		<punto x='250' y='280' />
+		<punto x='250' y='275' />
+		<punto x='250' y='270' />
+		<punto x='250' y='265' />
+		<punto x='250' y='260' />
+		<punto x='250' y='255' />
+		<punto x='250' y='250' />
+		<punto x='250' y='245' />
+		<punto x='250' y='240' />
+		<punto x='250' y='235' />
+		<punto x='250' y='230' />
+		<punto x='250' y='225' />
+		<punto x='250' y='220' />
+		<punto x='250' y='215' />
+		<punto x='250' y='210' />
+		<punto x='250' y='205' />
+		<punto x='250' y='200' />
+		<punto x='250' y='195' />
+		<punto x='250' y='190' />
+		<punto x='250' y='185' />
+		<punto x='250' y='180' />
+		<punto x='250' y='175' />
+		<punto x='250' y='170' />
+		<punto x='250' y='165' />
+		<punto x='250' y='160' />
+		<punto x='250' y='155' />
+		<punto x='250' y='150' />
+		<punto x='250' y='145' />
+		<punto x='250' y='140' />
+		<punto x='250' y='135' />
+		<punto x='250' y='130' />
+		<punto x='250' y='125' />
+		<punto x='250' y='120' />
+		<punto x='250' y='115' />
+		<punto x='250' y='110' />
+		<punto x='250' y='105' />
+		<punto x='250' y='100' />
+		<punto x='250' y='95' />
+		<punto x='250' y='90' />
+	</conexion>
+	<conexion>
+		<origen x='250' y='385' />
+		<destino x='250' y='295' />
+		<punto x='250' y='380' />
+		<punto x='250' y='375' />
+		<punto x='250' y='370' />
+		<punto x='250' y='365' />
+		<punto x='250' y='360' />
+		<punto x='250' y='355' />
+		<punto x='250' y='350' />
+		<punto x='250' y='345' />
+		<punto x='250' y='340' />
+		<punto x='250' y='335' />
+		<punto x='250' y='330' />
+		<punto x='250' y='325' />
+		<punto x='250' y='320' />
+		<punto x='250' y='315' />
+		<punto x='250' y='310' />
+		<punto x='250' y='305' />
+		<punto x='250' y='300' />
+	</conexion>
+	<conexion>
+		<origen x='250' y='420' />
+		<destino x='250' y='395' />
+		<punto x='250' y='415' />
+		<punto x='250' y='410' />
+		<punto x='250' y='405' />
+		<punto x='250' y='400' />
+	</conexion>
+	<conexion>
+		<origen x='270' y='305' />
+		<destino x='270' y='85' />
+		<punto x='270' y='300' />
+		<punto x='270' y='295' />
+		<punto x='270' y='290' />
+		<punto x='270' y='285' />
+		<punto x='270' y='280' />
+		<punto x='270' y='275' />
+		<punto x='270' y='270' />
+		<punto x='270' y='265' />
+		<punto x='270' y='260' />
+		<punto x='270' y='255' />
+		<punto x='270' y='250' />
+		<punto x='270' y='245' />
+		<punto x='270' y='240' />
+		<punto x='270' y='235' />
+		<punto x='270' y='230' />
+		<punto x='270' y='225' />
+		<punto x='270' y='220' />
+		<punto x='270' y='215' />
+		<punto x='270' y='210' />
+		<punto x='270' y='205' />
+		<punto x='270' y='200' />
+		<punto x='270' y='195' />
+		<punto x='270' y='190' />
+		<punto x='270' y='185' />
+		<punto x='270' y='180' />
+		<punto x='270' y='175' />
+		<punto x='270' y='170' />
+		<punto x='270' y='165' />
+		<punto x='270' y='160' />
+		<punto x='270' y='155' />
+		<punto x='270' y='150' />
+		<punto x='270' y='145' />
+		<punto x='270' y='140' />
+		<punto x='270' y='135' />
+		<punto x='270' y='130' />
+		<punto x='270' y='125' />
+		<punto x='270' y='120' />
+		<punto x='270' y='115' />
+		<punto x='270' y='110' />
+		<punto x='270' y='105' />
+		<punto x='270' y='100' />
+		<punto x='270' y='95' />
+		<punto x='270' y='90' />
+	</conexion>
+	<conexion>
+		<origen x='270' y='420' />
+		<destino x='270' y='315' />
+		<punto x='270' y='415' />
+		<punto x='270' y='410' />
+		<punto x='270' y='405' />
+		<punto x='270' y='400' />
+		<punto x='270' y='395' />
+		<punto x='270' y='390' />
+		<punto x='270' y='385' />
+		<punto x='270' y='380' />
+		<punto x='270' y='375' />
+		<punto x='270' y='370' />
+		<punto x='270' y='365' />
+		<punto x='270' y='360' />
+		<punto x='270' y='355' />
+		<punto x='270' y='350' />
+		<punto x='270' y='345' />
+		<punto x='270' y='340' />
+		<punto x='270' y='335' />
+		<punto x='270' y='330' />
+		<punto x='270' y='325' />
+		<punto x='270' y='320' />
+	</conexion>
+	<conexion>
+		<origen x='290' y='325' />
+		<destino x='290' y='85' />
+		<punto x='290' y='320' />
+		<punto x='290' y='315' />
+		<punto x='290' y='310' />
+		<punto x='290' y='305' />
+		<punto x='290' y='300' />
+		<punto x='290' y='295' />
+		<punto x='290' y='290' />
+		<punto x='290' y='285' />
+		<punto x='290' y='280' />
+		<punto x='290' y='275' />
+		<punto x='290' y='270' />
+		<punto x='290' y='265' />
+		<punto x='290' y='260' />
+		<punto x='290' y='255' />
+		<punto x='290' y='250' />
+		<punto x='290' y='245' />
+		<punto x='290' y='240' />
+		<punto x='290' y='235' />
+		<punto x='290' y='230' />
+		<punto x='290' y='225' />
+		<punto x='290' y='220' />
+		<punto x='290' y='215' />
+		<punto x='290' y='210' />
+		<punto x='290' y='205' />
+		<punto x='290' y='200' />
+		<punto x='290' y='195' />
+		<punto x='290' y='190' />
+		<punto x='290' y='185' />
+		<punto x='290' y='180' />
+		<punto x='290' y='175' />
+		<punto x='290' y='170' />
+		<punto x='290' y='165' />
+		<punto x='290' y='160' />
+		<punto x='290' y='155' />
+		<punto x='290' y='150' />
+		<punto x='290' y='145' />
+		<punto x='290' y='140' />
+		<punto x='290' y='135' />
+		<punto x='290' y='130' />
+		<punto x='290' y='125' />
+		<punto x='290' y='120' />
+		<punto x='290' y='115' />
+		<punto x='290' y='110' />
+		<punto x='290' y='105' />
+		<punto x='290' y='100' />
+		<punto x='290' y='95' />
+		<punto x='290' y='90' />
+	</conexion>
+	<conexion>
+		<origen x='290' y='420' />
+		<destino x='290' y='335' />
+		<punto x='290' y='415' />
+		<punto x='290' y='410' />
+		<punto x='290' y='405' />
+		<punto x='290' y='400' />
+		<punto x='290' y='395' />
+		<punto x='290' y='390' />
+		<punto x='290' y='385' />
+		<punto x='290' y='380' />
+		<punto x='290' y='375' />
+		<punto x='290' y='370' />
+		<punto x='290' y='365' />
+		<punto x='290' y='360' />
+		<punto x='290' y='355' />
+		<punto x='290' y='350' />
+		<punto x='290' y='345' />
+		<punto x='290' y='340' />
+	</conexion>
+	<conexion>
+		<origen x='310' y='345' />
+		<destino x='310' y='85' />
+		<punto x='310' y='340' />
+		<punto x='310' y='335' />
+		<punto x='310' y='330' />
+		<punto x='310' y='325' />
+		<punto x='310' y='320' />
+		<punto x='310' y='315' />
+		<punto x='310' y='310' />
+		<punto x='310' y='305' />
+		<punto x='310' y='300' />
+		<punto x='310' y='295' />
+		<punto x='310' y='290' />
+		<punto x='310' y='285' />
+		<punto x='310' y='280' />
+		<punto x='310' y='275' />
+		<punto x='310' y='270' />
+		<punto x='310' y='265' />
+		<punto x='310' y='260' />
+		<punto x='310' y='255' />
+		<punto x='310' y='250' />
+		<punto x='310' y='245' />
+		<punto x='310' y='240' />
+		<punto x='310' y='235' />
+		<punto x='310' y='230' />
+		<punto x='310' y='225' />
+		<punto x='310' y='220' />
+		<punto x='310' y='215' />
+		<punto x='310' y='210' />
+		<punto x='310' y='205' />
+		<punto x='310' y='200' />
+		<punto x='310' y='195' />
+		<punto x='310' y='190' />
+		<punto x='310' y='185' />
+		<punto x='310' y='180' />
+		<punto x='310' y='175' />
+		<punto x='310' y='170' />
+		<punto x='310' y='165' />
+		<punto x='310' y='160' />
+		<punto x='310' y='155' />
+		<punto x='310' y='150' />
+		<punto x='310' y='145' />
+		<punto x='310' y='140' />
+		<punto x='310' y='135' />
+		<punto x='310' y='130' />
+		<punto x='310' y='125' />
+		<punto x='310' y='120' />
+		<punto x='310' y='115' />
+		<punto x='310' y='110' />
+		<punto x='310' y='105' />
+		<punto x='310' y='100' />
+		<punto x='310' y='95' />
+		<punto x='310' y='90' />
+	</conexion>
+	<conexion>
+		<origen x='310' y='420' />
+		<destino x='310' y='355' />
+		<punto x='310' y='415' />
+		<punto x='310' y='410' />
+		<punto x='310' y='405' />
+		<punto x='310' y='400' />
+		<punto x='310' y='395' />
+		<punto x='310' y='390' />
+		<punto x='310' y='385' />
+		<punto x='310' y='380' />
+		<punto x='310' y='375' />
+		<punto x='310' y='370' />
+		<punto x='310' y='365' />
+		<punto x='310' y='360' />
+	</conexion>
+	<conexion>
+		<origen x='255' y='290' />
+		<destino x='545' y='290' />
+		<punto x='260' y='290' />
+		<punto x='265' y='290' />
+		<punto x='270' y='290' />
+		<punto x='275' y='290' />
+		<punto x='280' y='290' />
+		<punto x='285' y='290' />
+		<punto x='290' y='290' />
+		<punto x='295' y='290' />
+		<punto x='300' y='290' />
+		<punto x='305' y='290' />
+		<punto x='310' y='290' />
+		<punto x='315' y='290' />
+		<punto x='320' y='290' />
+		<punto x='325' y='290' />
+		<punto x='330' y='290' />
+		<punto x='335' y='290' />
+		<punto x='340' y='290' />
+		<punto x='345' y='290' />
+		<punto x='350' y='290' />
+		<punto x='355' y='290' />
+		<punto x='360' y='290' />
+		<punto x='365' y='290' />
+		<punto x='370' y='290' />
+		<punto x='375' y='290' />
+		<punto x='380' y='290' />
+		<punto x='385' y='290' />
+		<punto x='390' y='290' />
+		<punto x='395' y='290' />
+		<punto x='400' y='290' />
+		<punto x='405' y='290' />
+		<punto x='410' y='290' />
+		<punto x='415' y='290' />
+		<punto x='420' y='290' />
+		<punto x='425' y='290' />
+		<punto x='430' y='290' />
+		<punto x='435' y='290' />
+		<punto x='440' y='290' />
+		<punto x='445' y='290' />
+		<punto x='450' y='290' />
+		<punto x='455' y='290' />
+		<punto x='460' y='290' />
+		<punto x='465' y='290' />
+		<punto x='470' y='290' />
+		<punto x='475' y='290' />
+		<punto x='480' y='290' />
+		<punto x='485' y='290' />
+		<punto x='490' y='290' />
+		<punto x='495' y='290' />
+		<punto x='500' y='290' />
+		<punto x='505' y='290' />
+		<punto x='510' y='290' />
+		<punto x='515' y='290' />
+		<punto x='520' y='290' />
+		<punto x='525' y='290' />
+		<punto x='530' y='290' />
+		<punto x='535' y='290' />
+		<punto x='540' y='290' />
+	</conexion>
+	<conexion>
+		<origen x='275' y='310' />
+		<destino x='610' y='310' />
+		<punto x='280' y='310' />
+		<punto x='285' y='310' />
+		<punto x='290' y='310' />
+		<punto x='295' y='310' />
+		<punto x='300' y='310' />
+		<punto x='305' y='310' />
+		<punto x='310' y='310' />
+		<punto x='315' y='310' />
+		<punto x='320' y='310' />
+		<punto x='325' y='310' />
+		<punto x='330' y='310' />
+		<punto x='335' y='310' />
+		<punto x='340' y='310' />
+		<punto x='345' y='310' />
+		<punto x='350' y='310' />
+		<punto x='355' y='310' />
+		<punto x='360' y='310' />
+		<punto x='365' y='310' />
+		<punto x='370' y='310' />
+		<punto x='375' y='310' />
+		<punto x='380' y='310' />
+		<punto x='385' y='310' />
+		<punto x='390' y='310' />
+		<punto x='395' y='310' />
+		<punto x='400' y='310' />
+		<punto x='405' y='310' />
+		<punto x='410' y='310' />
+		<punto x='415' y='310' />
+		<punto x='420' y='310' />
+		<punto x='425' y='310' />
+		<punto x='430' y='310' />
+		<punto x='435' y='310' />
+		<punto x='440' y='310' />
+		<punto x='445' y='310' />
+		<punto x='450' y='310' />
+		<punto x='455' y='310' />
+		<punto x='460' y='310' />
+		<punto x='465' y='310' />
+		<punto x='470' y='310' />
+		<punto x='475' y='310' />
+		<punto x='480' y='310' />
+		<punto x='485' y='310' />
+		<punto x='490' y='310' />
+		<punto x='495' y='310' />
+		<punto x='500' y='310' />
+		<punto x='505' y='310' />
+		<punto x='510' y='310' />
+		<punto x='515' y='310' />
+		<punto x='520' y='310' />
+		<punto x='525' y='310' />
+		<punto x='530' y='310' />
+		<punto x='535' y='310' />
+		<punto x='540' y='310' />
+		<punto x='545' y='310' />
+		<punto x='550' y='310' />
+		<punto x='555' y='310' />
+		<punto x='560' y='310' />
+		<punto x='565' y='310' />
+		<punto x='570' y='310' />
+		<punto x='575' y='310' />
+		<punto x='580' y='310' />
+		<punto x='585' y='310' />
+		<punto x='590' y='310' />
+		<punto x='595' y='310' />
+		<punto x='600' y='310' />
+		<punto x='605' y='310' />
+	</conexion>
+	<conexion>
+		<origen x='295' y='330' />
+		<destino x='610' y='330' />
+		<punto x='300' y='330' />
+		<punto x='305' y='330' />
+		<punto x='310' y='330' />
+		<punto x='315' y='330' />
+		<punto x='320' y='330' />
+		<punto x='325' y='330' />
+		<punto x='330' y='330' />
+		<punto x='335' y='330' />
+		<punto x='340' y='330' />
+		<punto x='345' y='330' />
+		<punto x='350' y='330' />
+		<punto x='355' y='330' />
+		<punto x='360' y='330' />
+		<punto x='365' y='330' />
+		<punto x='370' y='330' />
+		<punto x='375' y='330' />
+		<punto x='380' y='330' />
+		<punto x='385' y='330' />
+		<punto x='390' y='330' />
+		<punto x='395' y='330' />
+		<punto x='400' y='330' />
+		<punto x='405' y='330' />
+		<punto x='410' y='330' />
+		<punto x='415' y='330' />
+		<punto x='420' y='330' />
+		<punto x='425' y='330' />
+		<punto x='430' y='330' />
+		<punto x='435' y='330' />
+		<punto x='440' y='330' />
+		<punto x='445' y='330' />
+		<punto x='450' y='330' />
+		<punto x='455' y='330' />
+		<punto x='460' y='330' />
+		<punto x='465' y='330' />
+		<punto x='470' y='330' />
+		<punto x='475' y='330' />
+		<punto x='480' y='330' />
+		<punto x='485' y='330' />
+		<punto x='490' y='330' />
+		<punto x='495' y='330' />
+		<punto x='500' y='330' />
+		<punto x='505' y='330' />
+		<punto x='510' y='330' />
+		<punto x='515' y='330' />
+		<punto x='520' y='330' />
+		<punto x='525' y='330' />
+		<punto x='530' y='330' />
+		<punto x='535' y='330' />
+		<punto x='540' y='330' />
+		<punto x='545' y='330' />
+		<punto x='550' y='330' />
+		<punto x='555' y='330' />
+		<punto x='560' y='330' />
+		<punto x='565' y='330' />
+		<punto x='570' y='330' />
+		<punto x='575' y='330' />
+		<punto x='580' y='330' />
+		<punto x='585' y='330' />
+		<punto x='590' y='330' />
+		<punto x='595' y='330' />
+		<punto x='600' y='330' />
+		<punto x='605' y='330' />
+	</conexion>
+	<conexion>
+		<origen x='315' y='350' />
+		<destino x='610' y='350' />
+		<punto x='320' y='350' />
+		<punto x='325' y='350' />
+		<punto x='330' y='350' />
+		<punto x='335' y='350' />
+		<punto x='340' y='350' />
+		<punto x='345' y='350' />
+		<punto x='350' y='350' />
+		<punto x='355' y='350' />
+		<punto x='360' y='350' />
+		<punto x='365' y='350' />
+		<punto x='370' y='350' />
+		<punto x='375' y='350' />
+		<punto x='380' y='350' />
+		<punto x='385' y='350' />
+		<punto x='390' y='350' />
+		<punto x='395' y='350' />
+		<punto x='400' y='350' />
+		<punto x='405' y='350' />
+		<punto x='410' y='350' />
+		<punto x='415' y='350' />
+		<punto x='420' y='350' />
+		<punto x='425' y='350' />
+		<punto x='430' y='350' />
+		<punto x='435' y='350' />
+		<punto x='440' y='350' />
+		<punto x='445' y='350' />
+		<punto x='450' y='350' />
+		<punto x='455' y='350' />
+		<punto x='460' y='350' />
+		<punto x='465' y='350' />
+		<punto x='470' y='350' />
+		<punto x='475' y='350' />
+		<punto x='480' y='350' />
+		<punto x='485' y='350' />
+		<punto x='490' y='350' />
+		<punto x='495' y='350' />
+		<punto x='500' y='350' />
+		<punto x='505' y='350' />
+		<punto x='510' y='350' />
+		<punto x='515' y='350' />
+		<punto x='520' y='350' />
+		<punto x='525' y='350' />
+		<punto x='530' y='350' />
+		<punto x='535' y='350' />
+		<punto x='540' y='350' />
+		<punto x='545' y='350' />
+		<punto x='550' y='350' />
+		<punto x='555' y='350' />
+		<punto x='560' y='350' />
+		<punto x='565' y='350' />
+		<punto x='570' y='350' />
+		<punto x='575' y='350' />
+		<punto x='580' y='350' />
+		<punto x='585' y='350' />
+		<punto x='590' y='350' />
+		<punto x='595' y='350' />
+		<punto x='600' y='350' />
+		<punto x='605' y='350' />
+	</conexion>
+	<conexion>
+		<origen x='95' y='440' />
+		<destino x='230' y='440' />
+		<punto x='100' y='440' />
+		<punto x='105' y='440' />
+		<punto x='110' y='440' />
+		<punto x='115' y='440' />
+		<punto x='120' y='440' />
+		<punto x='125' y='440' />
+		<punto x='130' y='440' />
+		<punto x='135' y='440' />
+		<punto x='140' y='440' />
+		<punto x='145' y='440' />
+		<punto x='150' y='440' />
+		<punto x='155' y='440' />
+		<punto x='160' y='440' />
+		<punto x='165' y='440' />
+		<punto x='170' y='440' />
+		<punto x='175' y='440' />
+		<punto x='180' y='440' />
+		<punto x='185' y='440' />
+		<punto x='190' y='440' />
+		<punto x='195' y='440' />
+		<punto x='200' y='440' />
+		<punto x='205' y='440' />
+		<punto x='210' y='440' />
+		<punto x='215' y='440' />
+		<punto x='220' y='440' />
+		<punto x='225' y='440' />
+	</conexion>
+	<conexion>
+		<origen x='95' y='460' />
+		<destino x='230' y='460' />
+		<punto x='100' y='460' />
+		<punto x='105' y='460' />
+		<punto x='110' y='460' />
+		<punto x='115' y='460' />
+		<punto x='120' y='460' />
+		<punto x='125' y='460' />
+		<punto x='130' y='460' />
+		<punto x='135' y='460' />
+		<punto x='140' y='460' />
+		<punto x='145' y='460' />
+		<punto x='150' y='460' />
+		<punto x='155' y='460' />
+		<punto x='160' y='460' />
+		<punto x='165' y='460' />
+		<punto x='170' y='460' />
+		<punto x='175' y='460' />
+		<punto x='180' y='460' />
+		<punto x='185' y='460' />
+		<punto x='190' y='460' />
+		<punto x='195' y='460' />
+		<punto x='200' y='460' />
+		<punto x='205' y='460' />
+		<punto x='210' y='460' />
+		<punto x='215' y='460' />
+		<punto x='220' y='460' />
+		<punto x='225' y='460' />
+	</conexion>
+	<conexion>
+		<origen x='165' y='480' />
+		<destino x='95' y='480' />
+		<punto x='160' y='480' />
+		<punto x='155' y='480' />
+		<punto x='150' y='480' />
+		<punto x='145' y='480' />
+		<punto x='140' y='480' />
+		<punto x='135' y='480' />
+		<punto x='130' y='480' />
+		<punto x='125' y='480' />
+		<punto x='120' y='480' />
+		<punto x='115' y='480' />
+		<punto x='110' y='480' />
+		<punto x='105' y='480' />
+		<punto x='100' y='480' />
+	</conexion>
+	<conexion>
+		<origen x='175' y='480' />
+		<destino x='230' y='480' />
+		<punto x='180' y='480' />
+		<punto x='185' y='480' />
+		<punto x='190' y='480' />
+		<punto x='195' y='480' />
+		<punto x='200' y='480' />
+		<punto x='205' y='480' />
+		<punto x='210' y='480' />
+		<punto x='215' y='480' />
+		<punto x='220' y='480' />
+		<punto x='225' y='480' />
+	</conexion>
+	<conexion>
+		<origen x='95' y='500' />
+		<destino x='230' y='500' />
+		<punto x='100' y='500' />
+		<punto x='105' y='500' />
+		<punto x='110' y='500' />
+		<punto x='115' y='500' />
+		<punto x='120' y='500' />
+		<punto x='125' y='500' />
+		<punto x='130' y='500' />
+		<punto x='135' y='500' />
+		<punto x='140' y='500' />
+		<punto x='145' y='500' />
+		<punto x='150' y='500' />
+		<punto x='155' y='500' />
+		<punto x='160' y='500' />
+		<punto x='165' y='500' />
+		<punto x='170' y='500' />
+		<punto x='175' y='500' />
+		<punto x='180' y='500' />
+		<punto x='185' y='500' />
+		<punto x='190' y='500' />
+		<punto x='195' y='500' />
+		<punto x='200' y='500' />
+		<punto x='205' y='500' />
+		<punto x='210' y='500' />
+		<punto x='215' y='500' />
+		<punto x='220' y='500' />
+		<punto x='225' y='500' />
+	</conexion>
+	<conexion>
+		<origen x='410' y='440' />
+		<destino x='610' y='160' />
+		<punto x='415' y='440' />
+		<punto x='415' y='435' />
+		<punto x='415' y='430' />
+		<punto x='415' y='425' />
+		<punto x='415' y='420' />
+		<punto x='415' y='415' />
+		<punto x='415' y='410' />
+		<punto x='415' y='405' />
+		<punto x='415' y='400' />
+		<punto x='415' y='395' />
+		<punto x='415' y='390' />
+		<punto x='415' y='385' />
+		<punto x='415' y='380' />
+		<punto x='415' y='375' />
+		<punto x='415' y='370' />
+		<punto x='415' y='365' />
+		<punto x='415' y='360' />
+		<punto x='415' y='355' />
+		<punto x='415' y='350' />
+		<punto x='415' y='345' />
+		<punto x='415' y='340' />
+		<punto x='415' y='335' />
+		<punto x='415' y='330' />
+		<punto x='415' y='325' />
+		<punto x='415' y='320' />
+		<punto x='415' y='315' />
+		<punto x='415' y='310' />
+		<punto x='415' y='305' />
+		<punto x='415' y='300' />
+		<punto x='415' y='295' />
+		<punto x='415' y='290' />
+		<punto x='415' y='285' />
+		<punto x='415' y='280' />
+		<punto x='415' y='275' />
+		<punto x='415' y='270' />
+		<punto x='415' y='265' />
+		<punto x='415' y='260' />
+		<punto x='415' y='255' />
+		<punto x='415' y='250' />
+		<punto x='415' y='245' />
+		<punto x='415' y='240' />
+		<punto x='415' y='235' />
+		<punto x='415' y='230' />
+		<punto x='415' y='225' />
+		<punto x='415' y='220' />
+		<punto x='415' y='215' />
+		<punto x='415' y='210' />
+		<punto x='415' y='205' />
+		<punto x='415' y='200' />
+		<punto x='415' y='195' />
+		<punto x='415' y='190' />
+		<punto x='415' y='185' />
+		<punto x='415' y='180' />
+		<punto x='415' y='175' />
+		<punto x='415' y='170' />
+		<punto x='415' y='165' />
+		<punto x='415' y='160' />
+		<punto x='420' y='160' />
+		<punto x='425' y='160' />
+		<punto x='430' y='160' />
+		<punto x='435' y='160' />
+		<punto x='440' y='160' />
+		<punto x='445' y='160' />
+		<punto x='450' y='160' />
+		<punto x='455' y='160' />
+		<punto x='460' y='160' />
+		<punto x='465' y='160' />
+		<punto x='470' y='160' />
+		<punto x='475' y='160' />
+		<punto x='480' y='160' />
+		<punto x='485' y='160' />
+		<punto x='490' y='160' />
+		<punto x='495' y='160' />
+		<punto x='500' y='160' />
+		<punto x='505' y='160' />
+		<punto x='510' y='160' />
+		<punto x='515' y='160' />
+		<punto x='520' y='160' />
+		<punto x='525' y='160' />
+		<punto x='530' y='160' />
+		<punto x='535' y='160' />
+		<punto x='540' y='160' />
+		<punto x='545' y='160' />
+		<punto x='550' y='160' />
+		<punto x='555' y='160' />
+		<punto x='560' y='160' />
+		<punto x='565' y='160' />
+		<punto x='570' y='160' />
+		<punto x='575' y='160' />
+		<punto x='580' y='160' />
+		<punto x='585' y='160' />
+		<punto x='590' y='160' />
+		<punto x='595' y='160' />
+		<punto x='600' y='160' />
+		<punto x='605' y='160' />
+	</conexion>
+	<conexion>
+		<origen x='495' y='390' />
+		<destino x='530' y='525' />
+		<punto x='500' y='390' />
+		<punto x='505' y='390' />
+		<punto x='510' y='390' />
+		<punto x='515' y='390' />
+		<punto x='520' y='390' />
+		<punto x='525' y='390' />
+		<punto x='530' y='390' />
+		<punto x='530' y='395' />
+		<punto x='530' y='400' />
+		<punto x='530' y='405' />
+		<punto x='530' y='410' />
+		<punto x='530' y='415' />
+		<punto x='530' y='420' />
+		<punto x='530' y='425' />
+		<punto x='530' y='430' />
+		<punto x='530' y='435' />
+		<punto x='530' y='440' />
+		<punto x='530' y='445' />
+		<punto x='530' y='450' />
+		<punto x='530' y='455' />
+		<punto x='530' y='460' />
+		<punto x='530' y='465' />
+		<punto x='530' y='470' />
+		<punto x='530' y='475' />
+		<punto x='530' y='480' />
+		<punto x='530' y='485' />
+		<punto x='530' y='490' />
+		<punto x='530' y='495' />
+		<punto x='530' y='500' />
+		<punto x='530' y='505' />
+		<punto x='530' y='510' />
+		<punto x='530' y='515' />
+		<punto x='530' y='520' />
+	</conexion>
+	<conexion>
+		<origen x='535' y='530' />
+		<destino x='640' y='510' />
+		<punto x='540' y='530' />
+		<punto x='545' y='530' />
+		<punto x='550' y='530' />
+		<punto x='555' y='530' />
+		<punto x='560' y='530' />
+		<punto x='565' y='530' />
+		<punto x='570' y='530' />
+		<punto x='575' y='530' />
+		<punto x='580' y='530' />
+		<punto x='585' y='530' />
+		<punto x='590' y='530' />
+		<punto x='595' y='530' />
+		<punto x='600' y='530' />
+		<punto x='605' y='530' />
+		<punto x='610' y='530' />
+		<punto x='615' y='530' />
+		<punto x='620' y='530' />
+		<punto x='625' y='530' />
+		<punto x='630' y='530' />
+		<punto x='635' y='530' />
+		<punto x='640' y='530' />
+		<punto x='640' y='525' />
+		<punto x='640' y='520' />
+		<punto x='640' y='515' />
+	</conexion>
+	<conexion>
+		<origen x='250' y='545' />
+		<destino x='250' y='520' />
+		<punto x='250' y='540' />
+		<punto x='250' y='535' />
+		<punto x='250' y='530' />
+		<punto x='250' y='525' />
+	</conexion>
+	<conexion>
+		<origen x='250' y='735' />
+		<destino x='250' y='555' />
+		<punto x='250' y='730' />
+		<punto x='250' y='725' />
+		<punto x='250' y='720' />
+		<punto x='250' y='715' />
+		<punto x='250' y='710' />
+		<punto x='250' y='705' />
+		<punto x='250' y='700' />
+		<punto x='250' y='695' />
+		<punto x='250' y='690' />
+		<punto x='250' y='685' />
+		<punto x='250' y='680' />
+		<punto x='250' y='675' />
+		<punto x='250' y='670' />
+		<punto x='250' y='665' />
+		<punto x='250' y='660' />
+		<punto x='250' y='655' />
+		<punto x='250' y='650' />
+		<punto x='250' y='645' />
+		<punto x='250' y='640' />
+		<punto x='250' y='635' />
+		<punto x='250' y='630' />
+		<punto x='250' y='625' />
+		<punto x='250' y='620' />
+		<punto x='250' y='615' />
+		<punto x='250' y='610' />
+		<punto x='250' y='605' />
+		<punto x='250' y='600' />
+		<punto x='250' y='595' />
+		<punto x='250' y='590' />
+		<punto x='250' y='585' />
+		<punto x='250' y='580' />
+		<punto x='250' y='575' />
+		<punto x='250' y='570' />
+		<punto x='250' y='565' />
+		<punto x='250' y='560' />
+	</conexion>
+	<conexion>
+		<origen x='270' y='735' />
+		<destino x='270' y='520' />
+		<punto x='270' y='730' />
+		<punto x='270' y='725' />
+		<punto x='270' y='720' />
+		<punto x='270' y='715' />
+		<punto x='270' y='710' />
+		<punto x='270' y='705' />
+		<punto x='270' y='700' />
+		<punto x='270' y='695' />
+		<punto x='270' y='690' />
+		<punto x='270' y='685' />
+		<punto x='270' y='680' />
+		<punto x='270' y='675' />
+		<punto x='270' y='670' />
+		<punto x='270' y='665' />
+		<punto x='270' y='660' />
+		<punto x='270' y='655' />
+		<punto x='270' y='650' />
+		<punto x='270' y='645' />
+		<punto x='270' y='640' />
+		<punto x='270' y='635' />
+		<punto x='270' y='630' />
+		<punto x='270' y='625' />
+		<punto x='270' y='620' />
+		<punto x='270' y='615' />
+		<punto x='270' y='610' />
+		<punto x='270' y='605' />
+		<punto x='270' y='600' />
+		<punto x='270' y='595' />
+		<punto x='270' y='590' />
+		<punto x='270' y='585' />
+		<punto x='270' y='580' />
+		<punto x='270' y='575' />
+		<punto x='270' y='570' />
+		<punto x='270' y='565' />
+		<punto x='270' y='560' />
+		<punto x='270' y='555' />
+		<punto x='270' y='550' />
+		<punto x='270' y='545' />
+		<punto x='270' y='540' />
+		<punto x='270' y='535' />
+		<punto x='270' y='530' />
+		<punto x='270' y='525' />
+	</conexion>
+	<conexion>
+		<origen x='290' y='735' />
+		<destino x='290' y='520' />
+		<punto x='290' y='730' />
+		<punto x='290' y='725' />
+		<punto x='290' y='720' />
+		<punto x='290' y='715' />
+		<punto x='290' y='710' />
+		<punto x='290' y='705' />
+		<punto x='290' y='700' />
+		<punto x='290' y='695' />
+		<punto x='290' y='690' />
+		<punto x='290' y='685' />
+		<punto x='290' y='680' />
+		<punto x='290' y='675' />
+		<punto x='290' y='670' />
+		<punto x='290' y='665' />
+		<punto x='290' y='660' />
+		<punto x='290' y='655' />
+		<punto x='290' y='650' />
+		<punto x='290' y='645' />
+		<punto x='290' y='640' />
+		<punto x='290' y='635' />
+		<punto x='290' y='630' />
+		<punto x='290' y='625' />
+		<punto x='290' y='620' />
+		<punto x='290' y='615' />
+		<punto x='290' y='610' />
+		<punto x='290' y='605' />
+		<punto x='290' y='600' />
+		<punto x='290' y='595' />
+		<punto x='290' y='590' />
+		<punto x='290' y='585' />
+		<punto x='290' y='580' />
+		<punto x='290' y='575' />
+		<punto x='290' y='570' />
+		<punto x='290' y='565' />
+		<punto x='290' y='560' />
+		<punto x='290' y='555' />
+		<punto x='290' y='550' />
+		<punto x='290' y='545' />
+		<punto x='290' y='540' />
+		<punto x='290' y='535' />
+		<punto x='290' y='530' />
+		<punto x='290' y='525' />
+	</conexion>
+	<conexion>
+		<origen x='310' y='735' />
+		<destino x='310' y='520' />
+		<punto x='310' y='730' />
+		<punto x='310' y='725' />
+		<punto x='310' y='720' />
+		<punto x='310' y='715' />
+		<punto x='310' y='710' />
+		<punto x='310' y='705' />
+		<punto x='310' y='700' />
+		<punto x='310' y='695' />
+		<punto x='310' y='690' />
+		<punto x='310' y='685' />
+		<punto x='310' y='680' />
+		<punto x='310' y='675' />
+		<punto x='310' y='670' />
+		<punto x='310' y='665' />
+		<punto x='310' y='660' />
+		<punto x='310' y='655' />
+		<punto x='310' y='650' />
+		<punto x='310' y='645' />
+		<punto x='310' y='640' />
+		<punto x='310' y='635' />
+		<punto x='310' y='630' />
+		<punto x='310' y='625' />
+		<punto x='310' y='620' />
+		<punto x='310' y='615' />
+		<punto x='310' y='610' />
+		<punto x='310' y='605' />
+		<punto x='310' y='600' />
+		<punto x='310' y='595' />
+		<punto x='310' y='590' />
+		<punto x='310' y='585' />
+		<punto x='310' y='580' />
+		<punto x='310' y='575' />
+		<punto x='310' y='570' />
+		<punto x='310' y='565' />
+		<punto x='310' y='560' />
+		<punto x='310' y='555' />
+		<punto x='310' y='550' />
+		<punto x='310' y='545' />
+		<punto x='310' y='540' />
+		<punto x='310' y='535' />
+		<punto x='310' y='530' />
+		<punto x='310' y='525' />
+	</conexion>
+	<conexion>
+		<origen x='330' y='665' />
+		<destino x='330' y='520' />
+		<punto x='330' y='660' />
+		<punto x='330' y='655' />
+		<punto x='330' y='650' />
+		<punto x='330' y='645' />
+		<punto x='330' y='640' />
+		<punto x='330' y='635' />
+		<punto x='330' y='630' />
+		<punto x='330' y='625' />
+		<punto x='330' y='620' />
+		<punto x='330' y='615' />
+		<punto x='330' y='610' />
+		<punto x='330' y='605' />
+		<punto x='330' y='600' />
+		<punto x='330' y='595' />
+		<punto x='330' y='590' />
+		<punto x='330' y='585' />
+		<punto x='330' y='580' />
+		<punto x='330' y='575' />
+		<punto x='330' y='570' />
+		<punto x='330' y='565' />
+		<punto x='330' y='560' />
+		<punto x='330' y='555' />
+		<punto x='330' y='550' />
+		<punto x='330' y='545' />
+		<punto x='330' y='540' />
+		<punto x='330' y='535' />
+		<punto x='330' y='530' />
+		<punto x='330' y='525' />
+	</conexion>
+	<conexion>
+		<origen x='330' y='735' />
+		<destino x='330' y='675' />
+		<punto x='330' y='730' />
+		<punto x='330' y='725' />
+		<punto x='330' y='720' />
+		<punto x='330' y='715' />
+		<punto x='330' y='710' />
+		<punto x='330' y='705' />
+		<punto x='330' y='700' />
+		<punto x='330' y='695' />
+		<punto x='330' y='690' />
+		<punto x='330' y='685' />
+		<punto x='330' y='680' />
+	</conexion>
+	<conexion>
+		<origen x='350' y='735' />
+		<destino x='350' y='520' />
+		<punto x='350' y='730' />
+		<punto x='350' y='725' />
+		<punto x='350' y='720' />
+		<punto x='350' y='715' />
+		<punto x='350' y='710' />
+		<punto x='350' y='705' />
+		<punto x='350' y='700' />
+		<punto x='350' y='695' />
+		<punto x='350' y='690' />
+		<punto x='350' y='685' />
+		<punto x='350' y='680' />
+		<punto x='350' y='675' />
+		<punto x='350' y='670' />
+		<punto x='350' y='665' />
+		<punto x='350' y='660' />
+		<punto x='350' y='655' />
+		<punto x='350' y='650' />
+		<punto x='350' y='645' />
+		<punto x='350' y='640' />
+		<punto x='350' y='635' />
+		<punto x='350' y='630' />
+		<punto x='350' y='625' />
+		<punto x='350' y='620' />
+		<punto x='350' y='615' />
+		<punto x='350' y='610' />
+		<punto x='350' y='605' />
+		<punto x='350' y='600' />
+		<punto x='350' y='595' />
+		<punto x='350' y='590' />
+		<punto x='350' y='585' />
+		<punto x='350' y='580' />
+		<punto x='350' y='575' />
+		<punto x='350' y='570' />
+		<punto x='350' y='565' />
+		<punto x='350' y='560' />
+		<punto x='350' y='555' />
+		<punto x='350' y='550' />
+		<punto x='350' y='545' />
+		<punto x='350' y='540' />
+		<punto x='350' y='535' />
+		<punto x='350' y='530' />
+		<punto x='350' y='525' />
+	</conexion>
+	<conexion>
+		<origen x='370' y='735' />
+		<destino x='370' y='520' />
+		<punto x='370' y='730' />
+		<punto x='370' y='725' />
+		<punto x='370' y='720' />
+		<punto x='370' y='715' />
+		<punto x='370' y='710' />
+		<punto x='370' y='705' />
+		<punto x='370' y='700' />
+		<punto x='370' y='695' />
+		<punto x='370' y='690' />
+		<punto x='370' y='685' />
+		<punto x='370' y='680' />
+		<punto x='370' y='675' />
+		<punto x='370' y='670' />
+		<punto x='370' y='665' />
+		<punto x='370' y='660' />
+		<punto x='370' y='655' />
+		<punto x='370' y='650' />
+		<punto x='370' y='645' />
+		<punto x='370' y='640' />
+		<punto x='370' y='635' />
+		<punto x='370' y='630' />
+		<punto x='370' y='625' />
+		<punto x='370' y='620' />
+		<punto x='370' y='615' />
+		<punto x='370' y='610' />
+		<punto x='370' y='605' />
+		<punto x='370' y='600' />
+		<punto x='370' y='595' />
+		<punto x='370' y='590' />
+		<punto x='370' y='585' />
+		<punto x='370' y='580' />
+		<punto x='370' y='575' />
+		<punto x='370' y='570' />
+		<punto x='370' y='565' />
+		<punto x='370' y='560' />
+		<punto x='370' y='555' />
+		<punto x='370' y='550' />
+		<punto x='370' y='545' />
+		<punto x='370' y='540' />
+		<punto x='370' y='535' />
+		<punto x='370' y='530' />
+		<punto x='370' y='525' />
+	</conexion>
+	<conexion>
+		<origen x='390' y='735' />
+		<destino x='390' y='520' />
+		<punto x='390' y='730' />
+		<punto x='390' y='725' />
+		<punto x='390' y='720' />
+		<punto x='390' y='715' />
+		<punto x='390' y='710' />
+		<punto x='390' y='705' />
+		<punto x='390' y='700' />
+		<punto x='390' y='695' />
+		<punto x='390' y='690' />
+		<punto x='390' y='685' />
+		<punto x='390' y='680' />
+		<punto x='390' y='675' />
+		<punto x='390' y='670' />
+		<punto x='390' y='665' />
+		<punto x='390' y='660' />
+		<punto x='390' y='655' />
+		<punto x='390' y='650' />
+		<punto x='390' y='645' />
+		<punto x='390' y='640' />
+		<punto x='390' y='635' />
+		<punto x='390' y='630' />
+		<punto x='390' y='625' />
+		<punto x='390' y='620' />
+		<punto x='390' y='615' />
+		<punto x='390' y='610' />
+		<punto x='390' y='605' />
+		<punto x='390' y='600' />
+		<punto x='390' y='595' />
+		<punto x='390' y='590' />
+		<punto x='390' y='585' />
+		<punto x='390' y='580' />
+		<punto x='390' y='575' />
+		<punto x='390' y='570' />
+		<punto x='390' y='565' />
+		<punto x='390' y='560' />
+		<punto x='390' y='555' />
+		<punto x='390' y='550' />
+		<punto x='390' y='545' />
+		<punto x='390' y='540' />
+		<punto x='390' y='535' />
+		<punto x='390' y='530' />
+		<punto x='390' y='525' />
+	</conexion>
+	<conexion>
+		<origen x='255' y='550' />
+		<destino x='600' y='510' />
+		<punto x='260' y='550' />
+		<punto x='265' y='550' />
+		<punto x='270' y='550' />
+		<punto x='275' y='550' />
+		<punto x='280' y='550' />
+		<punto x='285' y='550' />
+		<punto x='290' y='550' />
+		<punto x='295' y='550' />
+		<punto x='300' y='550' />
+		<punto x='305' y='550' />
+		<punto x='310' y='550' />
+		<punto x='315' y='550' />
+		<punto x='320' y='550' />
+		<punto x='325' y='550' />
+		<punto x='330' y='550' />
+		<punto x='335' y='550' />
+		<punto x='340' y='550' />
+		<punto x='345' y='550' />
+		<punto x='350' y='550' />
+		<punto x='355' y='550' />
+		<punto x='360' y='550' />
+		<punto x='365' y='550' />
+		<punto x='370' y='550' />
+		<punto x='375' y='550' />
+		<punto x='380' y='550' />
+		<punto x='385' y='550' />
+		<punto x='390' y='550' />
+		<punto x='395' y='550' />
+		<punto x='400' y='550' />
+		<punto x='405' y='550' />
+		<punto x='410' y='550' />
+		<punto x='415' y='550' />
+		<punto x='420' y='550' />
+		<punto x='425' y='550' />
+		<punto x='430' y='550' />
+		<punto x='435' y='550' />
+		<punto x='440' y='550' />
+		<punto x='445' y='550' />
+		<punto x='450' y='550' />
+		<punto x='455' y='550' />
+		<punto x='460' y='550' />
+		<punto x='465' y='550' />
+		<punto x='470' y='550' />
+		<punto x='475' y='550' />
+		<punto x='480' y='550' />
+		<punto x='485' y='550' />
+		<punto x='490' y='550' />
+		<punto x='495' y='550' />
+		<punto x='500' y='550' />
+		<punto x='505' y='550' />
+		<punto x='510' y='550' />
+		<punto x='515' y='550' />
+		<punto x='520' y='550' />
+		<punto x='525' y='550' />
+		<punto x='530' y='550' />
+		<punto x='535' y='550' />
+		<punto x='540' y='550' />
+		<punto x='545' y='550' />
+		<punto x='550' y='550' />
+		<punto x='555' y='550' />
+		<punto x='560' y='550' />
+		<punto x='565' y='550' />
+		<punto x='570' y='550' />
+		<punto x='570' y='545' />
+		<punto x='570' y='540' />
+		<punto x='570' y='535' />
+		<punto x='570' y='530' />
+		<punto x='570' y='525' />
+		<punto x='570' y='520' />
+		<punto x='570' y='515' />
+		<punto x='575' y='515' />
+		<punto x='580' y='515' />
+		<punto x='585' y='515' />
+		<punto x='590' y='515' />
+		<punto x='595' y='515' />
+		<punto x='600' y='515' />
+	</conexion>
+	<conexion>
+		<origen x='625' y='670' />
+		<destino x='335' y='670' />
+		<punto x='620' y='670' />
+		<punto x='615' y='670' />
+		<punto x='610' y='670' />
+		<punto x='605' y='670' />
+		<punto x='600' y='670' />
+		<punto x='595' y='670' />
+		<punto x='590' y='670' />
+		<punto x='585' y='670' />
+		<punto x='580' y='670' />
+		<punto x='575' y='670' />
+		<punto x='570' y='670' />
+		<punto x='565' y='670' />
+		<punto x='560' y='670' />
+		<punto x='555' y='670' />
+		<punto x='550' y='670' />
+		<punto x='545' y='670' />
+		<punto x='540' y='670' />
+		<punto x='535' y='670' />
+		<punto x='530' y='670' />
+		<punto x='525' y='670' />
+		<punto x='520' y='670' />
+		<punto x='515' y='670' />
+		<punto x='510' y='670' />
+		<punto x='505' y='670' />
+		<punto x='500' y='670' />
+		<punto x='495' y='670' />
+		<punto x='490' y='670' />
+		<punto x='485' y='670' />
+		<punto x='480' y='670' />
+		<punto x='475' y='670' />
+		<punto x='470' y='670' />
+		<punto x='465' y='670' />
+		<punto x='460' y='670' />
+		<punto x='455' y='670' />
+		<punto x='450' y='670' />
+		<punto x='445' y='670' />
+		<punto x='440' y='670' />
+		<punto x='435' y='670' />
+		<punto x='430' y='670' />
+		<punto x='425' y='670' />
+		<punto x='420' y='670' />
+		<punto x='415' y='670' />
+		<punto x='410' y='670' />
+		<punto x='405' y='670' />
+		<punto x='400' y='670' />
+		<punto x='395' y='670' />
+		<punto x='390' y='670' />
+		<punto x='385' y='670' />
+		<punto x='380' y='670' />
+		<punto x='375' y='670' />
+		<punto x='370' y='670' />
+		<punto x='365' y='670' />
+		<punto x='360' y='670' />
+		<punto x='355' y='670' />
+		<punto x='350' y='670' />
+		<punto x='345' y='670' />
+		<punto x='340' y='670' />
+	</conexion>
+</componentes>
