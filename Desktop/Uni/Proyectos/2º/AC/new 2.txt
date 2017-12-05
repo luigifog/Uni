@@ -1,0 +1,2 @@
+cd para cambiar de directorio
+edit para editar un archivo

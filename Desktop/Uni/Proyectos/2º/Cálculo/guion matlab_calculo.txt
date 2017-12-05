@@ -18,3 +18,51 @@ double(S): Calcula el valor numérico en una expresión simbólica S.
 simplify(S): Simplifica la expresión simbólica S.
 expand(S): Desarrolla la expresión S como producto de sus factores.
 factor(S): Factoriza, si es posible, la expresión S.
+#################################################################
+
+diff(f,x) -> calcula la derivada de la funcion f con la variable x
+diff(f,x,n) -> derivada enesima
+
+············Intervalos de monotonía·········
+	Primera derivada y solve, obtenemos los ptos criticos
+	df=diff(f)
+	solve(df)
+	
+	Con ezplot(f,[-100,100]), y los puntos criticos, ya tenemos cuando es creciente o decreciente
+
+	···········Concavidad y convexidad············
+	Con la segunda derivada, resolviendo, tenemos los ptos criticos en los que pasa de concava a convexa y viceversa
+	d2f=diff(f,2)
+	solve(d2f)
+	double(ans)
+	
+	
+··············Asistontas···············(buscar sitios en los que se vea que puede haber asintotas)
+**vertical**	
+	limit(f,x,z,’right’)
+	limit(f,x,z,’left’)
+Si da un num, hay asintota en la recta x=z
+
+**horizontal**
+	limit(f,x,inf,’right’)
+	limit(f,x,inf,’left’)
+	
+**Oblicua
+y=mx+n
+
+m=	limit(f/x,x,inf,’right’)
+	limit(f/x,x,inf,’left’)
+	
+n=	limit((f(X)-mx,x,inf,’right’)
+	limit(f/x,x,inf,’left’)
+	
+···············Polinomio de Taylor·················
+talor/f,n,a): de la funcion f , de orden n-1(si quieres de gado 4, poner n =5) en el pto x=a
+·················Integrales
+inf(f,):calcula integral no definida
+int(f,x,a,b):integral definida enre a y b
+
+
+
+guardar en r los puntos en comun de las graficas f y g
+	r=solve(f==g)
